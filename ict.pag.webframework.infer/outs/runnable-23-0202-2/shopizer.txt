@@ -1,0 +1,19 @@
+[entry]
+org.springframework.stereotype.Component	org.springframework.beans.factory.InitializingBean.afterPropertiesSet()V
+org.springframework.context.annotation.ComponentScan	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V
+null	org.springframework.context.event.EventListener
+null	org.springframework.context.annotation.Bean
+javax.servlet.annotation.WebListener	javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+javax.servlet.annotation.WebListener	javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+null	javax.annotation.PostConstruct
+org.springframework.context.annotation.ComponentScan	org.springframework.context.annotation.Bean
+org.springframework.stereotype.Controller	javax.annotation.PostConstruct
+null	/beans:beans/beans:bean/@factory-method
+[inject on field]
+org.springframework.beans.factory.annotation.Value
+javax.inject.Inject
+org.springframework.beans.factory.annotation.Autowired
+javax.persistence.PersistenceContext
+[inject on method]
+[field to target]
+[framework call to target]

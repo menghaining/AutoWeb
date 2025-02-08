@@ -1,0 +1,7 @@
+[entry]
+null	org.apache.struts2.convention.annotation.Action
+/struts/bean/@class	com.opensymphony.xwork2.UnknownHandler.handleUnknownResult(Lcom/opensymphony/xwork2/ActionContext;Ljava/lang/String;Lcom/opensymphony/xwork2/config/entities/ActionConfig;Ljava/lang/String;)Lcom/opensymphony/xwork2/Result;
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

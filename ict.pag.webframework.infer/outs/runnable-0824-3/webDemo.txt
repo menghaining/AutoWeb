@@ -1,0 +1,17 @@
+[entry]
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.RequestMapping
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V
+/*[name()='beans']/mvc:interceptors/mvc:interceptor/*[name()='bean']/@class	org.springframework.web.servlet.HandlerInterceptor.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z
+/*[name()='beans']/*[name()='bean']/@class	org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;
+[inject on field]
+org.springframework.beans.factory.annotation.Value
+javax.inject.Inject
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+javax.annotation.Resource	org.springframework.stereotype.Repository
+org.springframework.beans.factory.annotation.Qualifier	org.springframework.stereotype.Service
+[framework call to target]
+javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+	org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.RequestMapping
+	org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.RequestMapping

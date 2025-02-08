@@ -1,0 +1,10 @@
+[entry]
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+org.springframework.stereotype.Component	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+org.springframework.stereotype.Component	org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+[inject on field]
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+[framework call to target]

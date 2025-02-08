@@ -1,0 +1,18 @@
+[Reachable Class Marks] 4
+[Reachable Method Marks] 2
+[Reachable Field Marks] 1
+[Actual Class Marks] 3
+[Actual Method Marks] 6
+[Actual Field Marks] 0
+[Reachable class marks more]
+org.springframework.web.bind.annotation.RequestMapping
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+javax.servlet.GenericServlet.init()V
+javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+[Reachable field marks more]
+org.springframework.beans.factory.annotation.Autowired
+[Actual field marks more]

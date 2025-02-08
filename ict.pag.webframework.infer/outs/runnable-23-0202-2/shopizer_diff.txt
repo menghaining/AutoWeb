@@ -1,0 +1,67 @@
+[Reachable Class Marks] 23
+[Reachable Method Marks] 10
+[Reachable Field Marks] 30
+[Actual Class Marks] 4
+[Actual Method Marks] 8
+[Actual Field Marks] 4
+[Reachable class marks more]
+javax.persistence.Entity
+org.springframework.core.annotation.Order
+/*[name()='beans']/mvc:interceptors/mvc:interceptor/*[name()='bean']/@class
+/beans:beans/beans:bean/@class
+org.springframework.boot.autoconfigure.SpringBootApplication
+javax.persistence.MappedSuperclass
+javax.persistence.Cacheable
+org.springframework.context.annotation.Import
+com.fasterxml.jackson.annotation.JsonAutoDetect
+org.springframework.context.annotation.Configuration
+javax.persistence.Table
+javax.persistence.Inheritance
+javax.persistence.TableGenerator
+org.springframework.security.config.annotation.web.configuration.EnableWebSecurity
+org.springframework.stereotype.Service
+javax.persistence.EntityListeners
+springfox.documentation.swagger2.annotations.EnableSwagger2
+javax.persistence.Embeddable
+org.springframework.boot.web.servlet.ServletComponentScan
+[Actual class marks more]
+[Reachable method marks more]
+com.fasterxml.jackson.annotation.JsonProperty
+org.springframework.data.jpa.repository.Query
+javax.persistence.PreUpdate
+org.springframework.security.access.prepost.PreAuthorize
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.web.bind.annotation.ResponseBody
+[Actual method marks more]
+org.springframework.beans.factory.InitializingBean.afterPropertiesSet()V
+javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V
+[Reachable field marks more]
+/beans:beans/beans:bean/beans:property/@name
+javax.validation.constraints.NotEmpty
+javax.validation.Valid
+javax.persistence.TableGenerator
+org.springframework.beans.factory.annotation.Qualifier
+com.fasterxml.jackson.annotation.JsonIgnore
+javax.persistence.Enumerated
+javax.validation.constraints.Email
+javax.inject.Named
+javax.persistence.ManyToMany
+javax.persistence.Id
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+javax.persistence.Embedded
+javax.persistence.JoinColumn
+javax.annotation.Resource
+javax.persistence.OneToMany
+org.hibernate.annotations.Cascade
+org.hibernate.annotations.Type
+javax.persistence.Column
+javax.persistence.GeneratedValue
+javax.persistence.Transient
+javax.persistence.Temporal
+/beans:beans/beans:bean/beans:property/@ref
+javax.validation.constraints.Pattern
+io.swagger.annotations.ApiModelProperty
+[Actual field marks more]

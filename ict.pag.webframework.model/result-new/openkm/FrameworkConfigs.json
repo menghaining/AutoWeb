@@ -1,0 +1,2494 @@
+[
+	{
+		"methodMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge.set(Ljava/lang/String;Ljava/lang/Object;Lorg/apache/lucene/document/Document;Lorg/hibernate/search/bridge/LuceneOptions;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.xml.sax.EntityResolver.resolveEntity(Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.xml.sax.EntityResolver[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.springframework.context.ApplicationListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.InitializingBean.afterPropertiesSet()V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.beans.factory.InitializingBean[implement]",
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet.init(Ljavax/servlet/ServletConfig;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.hibernate.search.annotations.Factory"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.Filter[implement]",
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge.set(Ljava/lang/String;Ljava/lang/Object;Lorg/apache/lucene/document/Document;Lorg/hibernate/search/bridge/LuceneOptions;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge.set(Ljava/lang/String;Ljava/lang/Object;Lorg/apache/lucene/document/Document;Lorg/hibernate/search/bridge/LuceneOptions;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.SimpleTagSupport.doTag()V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.SimpleTagSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpSessionListener.sessionDestroyed(Ljavax/servlet/http/HttpSessionEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.http.HttpSessionListener[implement]",
+			"[xml]web-app;listener;listener-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.context.ServletContextAware[implement]",
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge.set(Ljava/lang/String;Ljava/lang/Object;Lorg/apache/lucene/document/Document;Lorg/hibernate/search/bridge/LuceneOptions;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.hibernate.search.bridge.FieldBridge[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet.doGetSerializationPolicy(Ljavax/servlet/http/HttpServletRequest;Ljava/lang/String;Ljava/lang/String;)Lcom/google/gwt/user/server/rpc/SerializationPolicy;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.commons.fileupload.ProgressListener.update(JJI)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.apache.commons.fileupload.ProgressListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.security.core.Authentication[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlSeeAlso"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlSeeAlso"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.apache.commons.fileupload.ProgressListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.security.core.Authentication[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.apache.commons.fileupload.ProgressListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.apache.commons.fileupload.ProgressListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.security.core.Authentication[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[anno]javax.persistence.Table",
+			"[anno]javax.persistence.Inheritance",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]org.hibernate.annotations.Table",
+			"[anno]javax.persistence.Table",
+			"[anno]org.hibernate.annotations.Cache",
+			"[anno]org.hibernate.search.annotations.Indexed"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.ElementCollection",
+			"[field][anno]org.hibernate.search.annotations.FieldBridge",
+			"[field][anno]javax.persistence.CollectionTable",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]javax.persistence.MapKeyColumn"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.annotations.Index",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]org.hibernate.search.annotations.FieldBridge",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.search.annotations.CalendarBridge"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.ElementCollection",
+			"[field][anno]org.hibernate.search.annotations.FieldBridge",
+			"[field][anno]javax.persistence.CollectionTable",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Lob",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.annotations.Type"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.ElementCollection",
+			"[field][anno]org.hibernate.search.annotations.FieldBridge",
+			"[field][anno]javax.persistence.CollectionTable",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Lob",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.annotations.Type"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.ElementCollection",
+			"[field][anno]org.hibernate.search.annotations.FieldBridge",
+			"[field][anno]javax.persistence.CollectionTable",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]javax.persistence.MapKeyColumn"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Embedded"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Id",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.search.annotations.DocumentId"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.search.annotations.CalendarBridge"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Lob",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]org.hibernate.annotations.Index",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.annotations.Type"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.search.annotations.CalendarBridge"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Transient"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]org.hibernate.annotations.Index",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Id",
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.hibernate.search.annotations.DocumentId"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.search.annotations.Field",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.annotations.Index",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]org.hibernate.annotations.Cache",
+			"[class][anno]org.hibernate.search.annotations.Indexed"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlSeeAlso"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]org.hibernate.annotations.Cache"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]org.hibernate.annotations.Table"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]org.hibernate.annotations.Cache",
+			"[class][anno]org.hibernate.search.annotations.Indexed"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;filter;filter-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.hibernate.search.annotations.FullTextFilterDef",
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]javax.persistence.Inheritance",
+			"[class][anno]org.hibernate.annotations.Cache",
+			"[class][anno]org.hibernate.search.annotations.Indexed"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;listener;listener-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]org.hibernate.annotations.Cache",
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	}
+]

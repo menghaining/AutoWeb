@@ -1,0 +1,279 @@
+[
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/springPetclinic",
+		"webappDir": "F:/Framework/InputRunnableTestcases/runnableJars/springPetclinic/springPetclinic"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/community",
+		"webappDir": "F:/Framework/InputRunnableTestcases/runnableJars/community/community"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/wechatResturant",
+		"webappDir": "F:/Framework/InputRunnableTestcases/runnableJars/wechatResturant/sell"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/newbeeMall",
+		"webappDir": "F:/Framework/InputRunnableTestcases/runnableJars/newbeeMall/newbeeMall"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/halo",
+		"webappDir": "F:/Framework/InputRunnableTestcases/runnableJars/halo/halo"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/ruoyi",
+		"webappDir": "F:/Framework/InputRunnableTestcases/runnableJars/ruoyi/modifyInput/ruoyi-admin"
+	},
+	
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/spring-mvc-showcase",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-spring-mvc-showcase/webapps-original/spring-mvc-showcase"
+	},
+	
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/logicaldoc",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-logicaldoc/tomcat/webapps-original/modifyInput2/logicaldoc"
+	},
+	
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/OpenKM",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-OpenKM/webapps-original/OpenKM"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/Logistics_Manage_System",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-LogisticsManageSystem/webapps-original/Logistics_Manage_System"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/jpetstore",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-jpetstore/webapps-original/jpetstore"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/icloud",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-icloud/webapps-original/icloud"
+	},
+	
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/NewsSystem",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-NewsSystem/webapps-original/NewsSystem"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/Shop",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-mission-Shop/webapps-original/Shop"
+	},
+	
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/action-chaining",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/action-chaining"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/annotations",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/annotations"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/bean-validation",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/bean-validation"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/blank",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/blank"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/coding-actions",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/coding-actions"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/control-tags",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/control-tags"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/crud",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/crud"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/debugging-struts",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/debugging-struts"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/exception-handling",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/exception-handling"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/exclude-parameters",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/exclude-parameters"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/file-upload",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/file-upload"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/form-processing",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/form-processing"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/form-tags",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/form-tags"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/form-xml-validation",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/form-xml-validation"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/form_validation",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/form_validation"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/hello-world",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/hello-world"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/http-session",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/http-session"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/interceptors",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/interceptors"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/json",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/json"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/json-customize",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/json-customize"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/mailreader2",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/mailreader2"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/message-resource",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/message-resource"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/message-store",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/message-store"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/preparable-interface",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/preparable-interface"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/rest-angular",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/rest-angular"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/reststyleactionmapper",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/reststyleactionmapper"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/spring-struts",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/spring-struts"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/text-provider",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/text-provider"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/themes",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/themes"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/themes-override",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/themes-override"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/tiles",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/tiles"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/type-conversion",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/type-conversion"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/unit-testing",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/unit-testing"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/unknown-handler",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/unknown-handler"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/using-tags",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/using-tags"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/validation-messages",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/validation-messages"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/wildcard-method-selection",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/wildcard-method-selection"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-official-samples/wildcard-regex",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-official-samples/webapps-original/wildcard-regex"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2-059_war",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2-059_war"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_001_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_001_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_003_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_003_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_005_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_005_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_007_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_007_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_008_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_008_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_009_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_009_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_012_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_012_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_013_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_013_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_015_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_015_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_016_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_016_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_032_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_032_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_045_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_045_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_046_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_046_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_053_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_053_war_exploded"
+	},
+	{
+		"logDir": "F:/myProject/webframeworkmodelinfer/ict.pag.webframework.preInstrumental/outs/struts2-vulns/s2_061_war_exploded",
+		"webappDir": "F:/Framework/InputRunnableTestcases/apache-tomcat-8-with-wars/tomcat-struts2-vulns/webapps-original/s2_061_war_exploded"
+	}
+]

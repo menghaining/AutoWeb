@@ -1,0 +1,17 @@
+[Reachable Class Marks] 2
+[Reachable Method Marks] 2
+[Reachable Field Marks] 0
+[Actual Class Marks] 1
+[Actual Method Marks] 4
+[Actual Field Marks] 0
+[Reachable class marks more]
+/*[name()='beans']/*[name()='bean']/@class
+[Actual class marks more]
+[Reachable method marks more]
+/struts/package/action/result/@name
+[Actual method marks more]
+com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+[Reachable field marks more]
+[Actual field marks more]

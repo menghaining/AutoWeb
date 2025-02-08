@@ -1,0 +1,13 @@
+[app classes] 5
+[all classes] 5146
+[reachable app classes] 5
+[all class marks]
+/struts/bean/@class
+[reachable class marks]
+/struts/bean/@class
+[all method marks]
+org.apache.struts2.convention.annotation.Action
+[reachable method marks]
+org.apache.struts2.convention.annotation.Action
+[all field marks]
+[reachable field marks]

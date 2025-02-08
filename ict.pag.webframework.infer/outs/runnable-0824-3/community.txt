@@ -1,0 +1,11 @@
+[entry]
+org.mybatis.spring.annotation.MapperScan	main([Ljava/lang/String;)V
+org.springframework.stereotype.Component	org.springframework.scheduling.annotation.Scheduled
+org.springframework.boot.autoconfigure.SpringBootApplication	main([Ljava/lang/String;)V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ResponseBody
+org.springframework.scheduling.annotation.EnableScheduling	main([Ljava/lang/String;)V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.RequestMapping
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

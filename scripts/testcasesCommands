@@ -1,0 +1,23 @@
+F:\Framework\Tesecases\shopizer\ F:\myProject\webframeworkinfer_testcases\shopizer\runningLogs\shopizer_0729.txt -extraDir F:\Framework\Tesecases\shopizer\extraDir -appKind shopizer
+F:\Framework\Tesecases\demo1\target F:\myProject\webframeworkinfer_testcases\demo1\runningLogs\0809.txt -appKind demo1
+F:\Framework\Tesecases\WebGoat\runnable\webgoat-container-7.1\WEB-INF  F:\myProject\webframeworkinfer_testcases\WebGoat-7.1\runningLogs\webgoat7_0729.txt -extraDir F:\Framework\Tesecases\WebGoat\runnable\webgoat-container-7.1\plugin_lessons -appKind webgoat
+F:\Framework\Tesecases\SpringBlog\build F:\myProject\webframeworkinfer_testcases\Springblog\runningLogs\springblog_0729.txt  -appKind springblog
+F:\Framework\Tesecases\pybbs\pybbs-new\pybbs F:\myProject\webframeworkinfer_testcases\pybbs_5.2.1\runningLogs\log_pybbs_0726.txt  -appKind pybbs
+F:\Framework\Tesecases\jpetstore-6\target F:\myProject\webframeworkinfer_testcases\jpetSrores\runningLogs\0816.txt  -appKind jpetstore
+F:\Framework\Tesecases\RuoYi F:\myProject\webframeworkinfer_testcases\ruoyi-dms\runningLogs\ruoyi0816.txt  -appKind ruoyi
+F:\Framework\Tesecases\springboot-project\target F:\myProject\webframeworkinfer_testcases\imooc\runningLogs\0816.txt -appKind imooc
+
+
+
+
+
+
+
+
+
+// test model command
+F:\myProject\webFrameworkInfer\marks2SAInfer\result\8merge1.json F:\Framework\Tesecases\demo1\target
+F:\myProject\webFrameworkInfer\marks2SAInfer\result\8merge1.json F:\Framework\Tesecases\alfresco7\alfresco-content-services-community-distribution-7.0.0\web-server\webapps
+F:\myProject\webFrameworkInfer\marks2SAInfer\result\8merge1.json F:\Framework\Tesecases\openmrs\release\openmrs\openmrs\tomcat\webapps\openmrs-standalone
+F:\myProject\webFrameworkInfer\marks2SAInfer\result\8merge1.json F:\Framework\Tesecases\mycollab\MyCollab-All-7.0.3\MyCollab-7.0.3
+F:\myProject\webFrameworkInfer\marks2SAInfer\result\8merge1.json F:\Framework\Tesecases\newbee-mall\target

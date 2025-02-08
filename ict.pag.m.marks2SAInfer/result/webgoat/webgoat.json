@@ -1,0 +1,87 @@
+[
+	{
+		"methodMarks": [
+			"inhe:mtd:contextInitialized(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"inhe:class:javax.servlet.ServletContextListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"inhe:mtd:setApplicationContext(Lorg/springframework/context/ApplicationContext;)V"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"inhe:class:org.springframework.context.ApplicationContextAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"anno:mtd:org.springframework.web.bind.annotation.RequestMapping"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"anno:class:org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"inhe:mtd:doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"inhe:class:javax.servlet.http.HttpServlet"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"anno:class:org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"xml:;:bean;myType:class"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"inhe:class:javax.servlet.ServletContextListener"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"anno:class:org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"inhe:class:org.springframework.context.ApplicationContextAware"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"inhe:class:javax.servlet.http.HttpServlet"
+		]
+	},
+	{
+		"kind": "MANAGED-CLASS",
+		"class-marks": [
+			"inhe:class:org.springframework.core.io.ResourceLoader"
+		]
+	},
+	{
+		"type": "field",
+		"kind": "MANAGED-FIELD-Inject",
+		"marks": [
+			"anno:field:org.springframework.beans.factory.annotation.Autowired"
+		]
+	}
+]

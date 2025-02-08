@@ -1,0 +1,9 @@
+[entry]
+null	org.springframework.web.bind.annotation.PostMapping
+org.springframework.context.annotation.EnableAspectJAutoProxy	main([Ljava/lang/String;)V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+[inject on field]
+javax.annotation.Resource
+[inject on method]
+[field to target]
+[framework call to target]

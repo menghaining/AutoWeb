@@ -1,0 +1,15 @@
+[entry]
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+/web-app/listener/listener-class	javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+/web-app/listener/listener-class	javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]
+com.opensymphony.xwork2.ActionInvocation.invoke()Ljava/lang/String;
+	/struts/package/action/@class	com.opensymphony.xwork2.Preparable.prepare()V	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	org.apache.struts2.interceptor.ApplicationAware.setApplication(Ljava/util/Map;)V	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	org.apache.struts2.interceptor.SessionAware.setSession(Ljava/util/Map;)V	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]

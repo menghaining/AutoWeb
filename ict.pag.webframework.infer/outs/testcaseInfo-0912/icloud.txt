@@ -1,0 +1,20 @@
+[app classes] 22
+[all classes] 9498
+[all class marks]
+/struts/package/action/@class
+org.springframework.stereotype.Component
+org.springframework.context.annotation.Scope
+org.springframework.stereotype.Service
+[reachable class marks]
+/struts/package/action/@class
+org.springframework.stereotype.Component
+org.springframework.context.annotation.Scope
+org.springframework.stereotype.Service
+[all method marks]
+/struts/package/action/@method
+[reachable method marks]
+/struts/package/action/@method
+[all field marks]
+org.springframework.beans.factory.annotation.Autowired
+[reachable field marks]
+org.springframework.beans.factory.annotation.Autowired

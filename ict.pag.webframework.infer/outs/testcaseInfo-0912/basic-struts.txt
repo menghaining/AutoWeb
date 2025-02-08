@@ -1,0 +1,8 @@
+[app classes] 0
+[all classes] 4435
+[all class marks]
+[reachable class marks]
+[all method marks]
+[reachable method marks]
+[all field marks]
+[reachable field marks]

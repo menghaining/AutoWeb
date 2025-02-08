@@ -1,0 +1,34 @@
+[Reachable Class Marks] 13
+[Reachable Method Marks] 7
+[Reachable Field Marks] 8
+[Actual Class Marks] 7
+[Actual Method Marks] 13
+[Actual Field Marks] 0
+[Reachable class marks more]
+java.lang.annotation.Target
+org.springframework.context.annotation.ComponentScan
+java.lang.annotation.Retention
+org.springframework.web.bind.annotation.SessionAttributes
+java.lang.annotation.Documented
+org.springframework.scheduling.annotation.EnableScheduling
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.web.bind.annotation.ResponseBody
+[Actual method marks more]
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configurePathMatch(Lorg/springframework/web/servlet/config/annotation/PathMatchConfigurer;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers(Ljava/util/List;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addFormatters(Lorg/springframework/format/FormatterRegistry;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addViewControllers(Lorg/springframework/web/servlet/config/annotation/ViewControllerRegistry;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureViewResolvers(Lorg/springframework/web/servlet/config/annotation/ViewResolverRegistry;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureAsyncSupport(Lorg/springframework/web/servlet/config/annotation/AsyncSupportConfigurer;)V
+[Reachable field marks more]
+javax.validation.constraints.Future
+javax.validation.constraints.Past
+org.hibernate.validator.constraints.NotEmpty
+javax.validation.constraints.Max
+javax.validation.constraints.Min
+javax.validation.constraints.NotNull
+org.springframework.format.annotation.NumberFormat
+org.springframework.format.annotation.DateTimeFormat
+[Actual field marks more]

@@ -1,0 +1,20 @@
+[Reachable Class Marks] 3
+[Reachable Method Marks] 2
+[Reachable Field Marks] 0
+[Actual Class Marks] 2
+[Actual Method Marks] 5
+[Actual Field Marks] 0
+[Reachable class marks more]
+/web-app/listener/listener-class
+[Actual class marks more]
+[Reachable method marks more]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[Actual method marks more]
+com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+com.opensymphony.xwork2.Preparable.prepare()V
+[Reachable field marks more]
+[Actual field marks more]

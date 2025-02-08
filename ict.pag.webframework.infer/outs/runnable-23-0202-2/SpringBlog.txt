@@ -1,0 +1,17 @@
+[entry]
+org.springframework.web.bind.annotation.ControllerAdvice	org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.transaction.annotation.Transactional	org.springframework.security.core.userdetails.UserDetailsService.loadUserByUsername(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.RequestMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+null	org.springframework.web.bind.annotation.PostMapping
+[inject on field]
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+org.springframework.beans.factory.annotation.Qualifier	org.springframework.stereotype.Service
+[framework call to target]
+org.springframework.boot.SpringApplication.run([Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.context.annotation.Configuration	javax.annotation.PostConstruct	[]
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean	[]
+	null	org.springframework.context.annotation.Bean	[]
+	org.springframework.stereotype.Service	javax.annotation.PostConstruct	[]

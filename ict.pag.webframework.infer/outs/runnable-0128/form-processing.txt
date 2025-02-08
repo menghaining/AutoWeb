@@ -1,0 +1,11 @@
+[entry]
+/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+null	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+null	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+null	/struts/package/action/@method
+/struts/package/action/@class	/struts/package/action/@method
+/struts/package/action/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

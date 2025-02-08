@@ -1,0 +1,94 @@
+[app classes] 290
+[all classes] 38320
+[all class marks]
+io.swagger.annotations.ApiModel
+org.springframework.context.annotation.Configuration
+org.springframework.boot.context.properties.ConfigurationProperties
+java.lang.annotation.Inherited
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.context.annotation.EnableAspectJAutoProxy
+io.swagger.annotations.Api
+java.lang.annotation.Retention
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.core.annotation.Order
+org.mybatis.spring.annotation.MapperScan
+org.springframework.web.bind.annotation.RestControllerAdvice
+org.springframework.web.bind.annotation.RestController
+org.quartz.DisallowConcurrentExecution
+java.lang.annotation.Documented
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
+org.springframework.context.annotation.PropertySource
+org.aspectj.lang.annotation.Aspect
+java.lang.annotation.Target
+[reachable class marks]
+org.springframework.context.annotation.Configuration
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
+org.springframework.context.annotation.PropertySource
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+[all method marks]
+javax.validation.constraints.NotBlank
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.transaction.annotation.Transactional
+com.fasterxml.jackson.annotation.JsonIgnore
+io.swagger.annotations.ApiImplicitParam
+org.aspectj.lang.annotation.Before
+org.springframework.web.bind.annotation.InitBinder
+javax.validation.constraints.Email
+org.springframework.context.annotation.Primary
+io.swagger.annotations.ApiOperation
+org.apache.shiro.authz.annotation.RequiresPermissions
+javax.validation.constraints.Size
+org.springframework.beans.factory.annotation.Value
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.boot.context.properties.ConfigurationProperties
+org.aspectj.lang.annotation.Around
+io.swagger.annotations.ApiImplicitParams
+org.aspectj.lang.annotation.AfterReturning
+org.springframework.web.bind.annotation.PostMapping
+org.aspectj.lang.annotation.AfterThrowing
+javax.annotation.PostConstruct
+org.springframework.web.bind.annotation.DeleteMapping
+org.aspectj.lang.annotation.Pointcut
+org.springframework.context.annotation.Bean
+javax.annotation.PreDestroy
+org.springframework.web.bind.annotation.PutMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
+[reachable method marks]
+javax.validation.constraints.Size
+org.springframework.beans.factory.annotation.Value
+org.springframework.web.bind.annotation.ResponseBody
+javax.validation.constraints.NotBlank
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.web.bind.annotation.InitBinder
+org.springframework.context.annotation.Bean
+org.springframework.context.annotation.Primary
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
+javax.annotation.PostConstruct
+[all field marks]
+org.springframework.beans.factory.annotation.Value
+javax.annotation.Resource
+javax.validation.constraints.NotBlank
+javax.validation.Valid
+org.springframework.beans.factory.annotation.Autowired
+io.swagger.annotations.ApiModelProperty
+com.fasterxml.jackson.annotation.JsonFormat
+org.springframework.beans.factory.annotation.Qualifier
+org.springframework.context.annotation.Lazy
+[reachable field marks]
+org.springframework.beans.factory.annotation.Value
+javax.annotation.Resource
+org.springframework.beans.factory.annotation.Autowired
+com.fasterxml.jackson.annotation.JsonFormat
+org.springframework.beans.factory.annotation.Qualifier
+org.springframework.context.annotation.Lazy

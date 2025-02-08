@@ -1,0 +1,10 @@
+[entry]
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']	javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+/beans:beans/beans:bean/@class	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']	javax.servlet.GenericServlet.init()V
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']	javax.servlet.http.HttpSessionListener.sessionDestroyed(Ljavax/servlet/http/HttpSessionEvent;)V
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

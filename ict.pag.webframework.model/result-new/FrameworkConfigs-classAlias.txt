@@ -1,0 +1,5 @@
+[xml]beans;bean:name
+[name][ClassSimpleName]
+[anno]org.springframework.stereotype.Service[attr]value
+[xml]beans;bean:id
+[anno]org.springframework.stereotype.Repository[attr]value

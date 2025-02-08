@@ -1,0 +1,17 @@
+[entry]
+null	javax.annotation.PostConstruct
+null	org.springframework.web.bind.annotation.InitBinder
+org.springframework.context.annotation.PropertySource	org.springframework.beans.factory.annotation.Value
+org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.GetMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.stereotype.Service	javax.annotation.PostConstruct
+[inject on field]
+javax.annotation.Resource
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+[framework call to target]
+org.springframework.beans.factory.config.ConfigurableListableBeanFactory.getBean(Ljava/lang/Class;)Ljava/lang/Object;
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean	[]

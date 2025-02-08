@@ -1,0 +1,4 @@
+[method][inheritance]com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;[extends]
+[class][xml]struts;package;action:class
+[field][xml]struts;package;action;param:name
+[class][inheritance]com.opensymphony.xwork2.ActionSupport[extends]

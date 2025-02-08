@@ -1,0 +1,622 @@
+[
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.After"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Before"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Around"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Before"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.HandlerInterceptor.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;interceptors;interceptor;bean:class",
+			"[inheritance]org.springframework.web.servlet.HandlerInterceptor[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Around"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController[extends]",
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController[extends]",
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]",
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController[extends]",
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.After"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]",
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.ServletContextListener[implement]",
+			"[anno]javax.servlet.annotation.WebListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Before"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Before"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Repository"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Repository"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.annotation.Resource"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.annotation.Resource"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.inject.Inject"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Qualifier",
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Qualifier",
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:value[class]beans;bean"
+		]
+	},
+	{
+		"valueDirect": [
+			"[Primordial]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [
+			"[Proxy]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Qualifier",
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [
+			"[Primordial]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [
+			"[Primordial]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]javax.annotation.Resource"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[anno]org.springframework.beans.factory.annotation.Qualifier[attr]value"
+		],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Qualifier",
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [
+			"[Primordial]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [
+			"[Primordial]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]javax.annotation.Resource"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]javax.inject.Inject"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [
+			"[Primordial]"
+		],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[anno]javax.annotation.Resource[attr]name"
+		],
+		"fieldMarks": [
+			"[field][anno]javax.annotation.Resource"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:name"
+		]
+	},
+	{
+		"value": "[xml]beans;bean:name",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": "[anno]org.springframework.stereotype.Service[attr]value",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": "[anno]org.springframework.stereotype.Repository[attr]value",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;filter;filter-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Repository"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;interceptors;interceptor;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.aspectj.lang.annotation.Aspect",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.aspectj.lang.annotation.Aspect",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.servlet.annotation.WebListener"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;filter;filter-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"invokeStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed([Ljava/lang/Object;)Ljava/lang/Object;",
+		"caller": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "Indirect-Call",
+		"target": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		]
+	},
+	{
+		"invokeStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed([Ljava/lang/Object;)Ljava/lang/Object;",
+		"caller": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "Indirect-Call",
+		"target": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		]
+	},
+	{
+		"invokeStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed([Ljava/lang/Object;)Ljava/lang/Object;",
+		"caller": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "Indirect-Call",
+		"target": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		]
+	},
+	{
+		"invokeStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V",
+		"caller": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V[extends]"
+		],
+		"kind": "Indirect-Call",
+		"target": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		]
+	},
+	{
+		"invokeStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;",
+		"caller": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "Indirect-Call",
+		"target": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		]
+	},
+	{
+		"invokeStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V",
+		"caller": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V[extends]"
+		],
+		"kind": "Indirect-Call",
+		"target": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		]
+	},
+	{
+		"kind": "Call-Sequence",
+		"pre": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		],
+		"after": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		]
+	},
+	{
+		"kind": "Call-Sequence",
+		"pre": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"after": [
+			"[anno]Lorg/aspectj/lang/annotation/After"
+		]
+	}
+]

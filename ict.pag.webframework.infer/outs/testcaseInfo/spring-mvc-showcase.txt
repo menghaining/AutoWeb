@@ -1,0 +1,66 @@
+[app classes] 42
+[all classes] 8937
+[reachable app classes] 37
+[all class marks]
+javax.xml.bind.annotation.XmlRootElement
+org.springframework.context.annotation.Configuration
+org.springframework.context.annotation.ComponentScan
+org.springframework.stereotype.Controller
+java.lang.annotation.Retention
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.scheduling.annotation.EnableScheduling
+org.springframework.web.bind.annotation.RestControllerAdvice
+org.springframework.web.bind.annotation.RestController
+org.springframework.web.bind.annotation.SessionAttributes
+java.lang.annotation.Documented
+org.springframework.web.servlet.config.annotation.EnableWebMvc
+java.lang.annotation.Target
+[reachable class marks]
+javax.xml.bind.annotation.XmlRootElement
+org.springframework.context.annotation.Configuration
+org.springframework.context.annotation.ComponentScan
+org.springframework.stereotype.Controller
+java.lang.annotation.Retention
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.scheduling.annotation.EnableScheduling
+org.springframework.web.bind.annotation.RestControllerAdvice
+org.springframework.web.bind.annotation.RestController
+org.springframework.web.bind.annotation.SessionAttributes
+java.lang.annotation.Documented
+org.springframework.web.servlet.config.annotation.EnableWebMvc
+java.lang.annotation.Target
+[all method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.scheduling.annotation.Scheduled
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+javax.inject.Inject
+org.springframework.web.bind.annotation.ModelAttribute
+[reachable method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.scheduling.annotation.Scheduled
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.ModelAttribute
+[all field marks]
+javax.validation.constraints.Future
+org.hibernate.validator.constraints.NotEmpty
+javax.validation.constraints.Past
+javax.validation.constraints.NotNull
+org.springframework.format.annotation.NumberFormat
+org.springframework.format.annotation.DateTimeFormat
+javax.validation.constraints.Min
+javax.validation.constraints.Max
+[reachable field marks]
+javax.validation.constraints.Future
+org.hibernate.validator.constraints.NotEmpty
+javax.validation.constraints.Past
+javax.validation.constraints.NotNull
+org.springframework.format.annotation.NumberFormat
+org.springframework.format.annotation.DateTimeFormat
+javax.validation.constraints.Min
+javax.validation.constraints.Max

@@ -1,0 +1,23 @@
+[app classes] 33
+[all classes] 14329
+[all class marks]
+/struts/package/action/@class
+/*[name()='beans']/*[name()='bean']/@class
+/struts/package/interceptors/interceptor/@class
+[reachable class marks]
+/struts/package/action/@class
+/*[name()='beans']/*[name()='bean']/@class
+/struts/package/interceptors/interceptor/@class
+[all method marks]
+/struts/package/action/result/@name
+/*[name()='beans']/*[name()='bean']/@id
+/struts/package/action/@method
+[reachable method marks]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[all field marks]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref
+[reachable field marks]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref

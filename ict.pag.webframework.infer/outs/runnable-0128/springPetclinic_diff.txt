@@ -1,0 +1,33 @@
+[Reachable Class Marks] 10
+[Reachable Method Marks] 9
+[Reachable Field Marks] 12
+[Actual Class Marks] 8
+[Actual Method Marks] 8
+[Actual Field Marks] 0
+[Reachable class marks more]
+javax.xml.bind.annotation.XmlRootElement
+org.springframework.cache.annotation.EnableCaching
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.data.jpa.repository.Query
+org.springframework.cache.annotation.Cacheable
+javax.xml.bind.annotation.XmlElement
+org.springframework.transaction.annotation.Transactional
+[Actual method marks more]
+org.springframework.format.Parser.parse(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/Object;
+org.springframework.format.Printer.print(Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+main([Ljava/lang/String;)V
+[Reachable field marks more]
+javax.persistence.Column
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+javax.persistence.GeneratedValue
+javax.persistence.Transient
+javax.persistence.JoinColumn
+javax.validation.constraints.Digits
+javax.persistence.OneToMany
+javax.persistence.ManyToMany
+org.springframework.format.annotation.DateTimeFormat
+javax.validation.constraints.NotEmpty
+javax.persistence.Id
+[Actual field marks more]

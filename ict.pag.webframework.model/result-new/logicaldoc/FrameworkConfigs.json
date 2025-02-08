@@ -1,0 +1,1898 @@
+[
+	{
+		"methodMarks": [
+			"[inheritance]org.java.plugin.Plugin.doStart()V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.java.plugin.Plugin[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.jdbc.core.RowMapper.mapRow(Ljava/sql/ResultSet;I)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.jdbc.core.RowMapper[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.ServletContextListener[implement]",
+			"[xml]web-app;listener;listener-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.java.plugin.Plugin.doStart()V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.java.plugin.Plugin[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.resolvePlaceholder(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.springframework.beans.factory.config.PropertyPlaceholderConfigurer[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.log4j.Layout.getHeader()Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.apache.log4j.Layout[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.log4j.Layout.format(Lorg/apache/log4j/spi/LoggingEvent;)Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.apache.log4j.Layout[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.springframework.context.ApplicationListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpSessionListener.sessionDestroyed(Ljavax/servlet/http/HttpSessionEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.http.HttpSessionListener[implement]",
+			"[xml]web-app;listener;listener-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.java.plugin.PluginManager$PluginLocation.getManifestLocation()Ljava/net/URL;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.java.plugin.PluginManager$PluginLocation[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.log4j.Layout.getFooter()Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.apache.log4j.Layout[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.log4j.Layout.ignoresThrowable()Z[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.apache.log4j.Layout[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.java.plugin.PluginManager$PluginLocation.getContextLocation()Ljava/net/URL;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.java.plugin.PluginManager$PluginLocation[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.solr.update.processor.UpdateRequestProcessorFactory.getInstance(Lorg/apache/solr/request/SolrQueryRequest;Lorg/apache/solr/response/SolrQueryResponse;Lorg/apache/solr/update/processor/UpdateRequestProcessor;)Lorg/apache/solr/update/processor/UpdateRequestProcessor;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]config;updateRequestProcessorChain;processor:class",
+			"[inheritance]org.apache.solr.update.processor.UpdateRequestProcessorFactory[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.jdbc.core.BeanPropertyRowMapper.mapRow(Ljava/sql/ResultSet;I)Ljava/lang/Object;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.jdbc.core.BeanPropertyRowMapper[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.Filter[implement]",
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.Filter[implement]",
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.jdbc.core.RowMapper.mapRow(Ljava/sql/ResultSet;I)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.jdbc.core.RowMapper[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.cxf.transport.common.gzip.GZIPOutInterceptor.setThreshold(I)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.apache.cxf.transport.common.gzip.GZIPOutInterceptor[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]javax.servlet.http.HttpServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.servlet.Filter[implement]",
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[inheritance]org.springframework.context.ApplicationListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[inheritance]org.springframework.context.ApplicationContextAware[implement]",
+			"[inheritance]org.springframework.context.ApplicationListener[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.RemoteService[implement]",
+			"[xml]web-app;servlet;servlet-class:[text]",
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet[extends]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:ref[class]beans;bean;property;bean"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property;ref:bean"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property;ref:bean"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property;ref:bean"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": false
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property;bean;property:ref"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property;bean;property:name[class]beans;bean;property;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"value": "[name][ClassSimpleName]",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": "[xml]beans;bean:id",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;filter;filter-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;listener;listener-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]config;updateRequestProcessorChain;processor:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;servlet;servlet-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean;property;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]web-app;filter;filter-class:[text]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	}
+]

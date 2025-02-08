@@ -1,0 +1,22 @@
+[Reachable Class Marks] 1
+[Reachable Method Marks] 2
+[Reachable Field Marks] 6
+[Actual Class Marks] 1
+[Actual Method Marks] 4
+[Actual Field Marks] 0
+[Reachable class marks more]
+[Actual class marks more]
+[Reachable method marks more]
+/struts/package/action/result/@name
+[Actual method marks more]
+com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+[Reachable field marks more]
+javax.validation.Valid
+javax.validation.constraints.Size
+org.hibernate.validator.constraints.Email
+org.hibernate.validator.constraints.NotEmpty
+javax.validation.constraints.Pattern
+org.hibernate.validator.constraints.NotBlank
+[Actual field marks more]

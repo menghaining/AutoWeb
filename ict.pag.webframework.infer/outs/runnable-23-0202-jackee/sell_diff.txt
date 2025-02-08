@@ -1,0 +1,24 @@
+[Reachable Class Marks] 11
+[Reachable Method Marks] 4
+[Reachable Field Marks] 4
+[Actual Class Marks] 3
+[Actual Method Marks] 3
+[Actual Field Marks] 1
+[Reachable class marks more]
+javax.persistence.Entity
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+org.springframework.cache.annotation.CacheConfig
+org.springframework.boot.context.properties.ConfigurationProperties
+javax.websocket.server.ServerEndpoint
+org.hibernate.annotations.DynamicUpdate
+org.springframework.cache.annotation.EnableCaching
+[Actual class marks more]
+[Reachable method marks more]
+com.fasterxml.jackson.annotation.JsonIgnore
+[Actual method marks more]
+[Reachable field marks more]
+javax.persistence.GeneratedValue
+com.fasterxml.jackson.databind.annotation.JsonSerialize
+javax.persistence.Id
+[Actual field marks more]

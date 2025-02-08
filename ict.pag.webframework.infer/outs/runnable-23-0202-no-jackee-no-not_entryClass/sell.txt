@@ -1,0 +1,12 @@
+[entry]
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.PostMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.GetMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.PostMapping
+[inject on field]
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+[framework call to target]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Object;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.stereotype.Component	org.springframework.context.annotation.Bean	[]

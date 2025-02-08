@@ -1,0 +1,61 @@
+[app classes] 75
+[all classes] 28722
+[all class marks]
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.cache.annotation.CacheConfig
+javax.persistence.Entity
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.web.bind.annotation.RestController
+org.springframework.cache.annotation.EnableCaching
+org.hibernate.annotations.DynamicUpdate
+javax.websocket.server.ServerEndpoint
+org.springframework.web.bind.annotation.ControllerAdvice
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.aspectj.lang.annotation.Aspect
+[reachable class marks]
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.cache.annotation.EnableCaching
+org.springframework.stereotype.Component
+org.hibernate.annotations.DynamicUpdate
+org.springframework.stereotype.Controller
+javax.websocket.server.ServerEndpoint
+org.springframework.cache.annotation.CacheConfig
+javax.persistence.Entity
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+[all method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+javax.websocket.OnMessage
+org.springframework.cache.annotation.CachePut
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.cache.annotation.CacheEvict
+org.springframework.transaction.annotation.Transactional
+com.fasterxml.jackson.annotation.JsonIgnore
+org.springframework.cache.annotation.Cacheable
+javax.websocket.OnOpen
+javax.websocket.OnClose
+org.springframework.web.bind.annotation.ResponseStatus
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.GetMapping
+[reachable method marks]
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+com.fasterxml.jackson.annotation.JsonIgnore
+[all field marks]
+javax.persistence.Id
+javax.persistence.GeneratedValue
+com.fasterxml.jackson.databind.annotation.JsonSerialize
+org.hibernate.validator.constraints.NotEmpty
+org.springframework.beans.factory.annotation.Autowired
+com.fasterxml.jackson.annotation.JsonProperty
+[reachable field marks]
+javax.persistence.Id
+javax.persistence.GeneratedValue
+com.fasterxml.jackson.databind.annotation.JsonSerialize
+org.springframework.beans.factory.annotation.Autowired

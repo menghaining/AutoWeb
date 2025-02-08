@@ -1,0 +1,18 @@
+[Reachable Class Marks] 9
+[Reachable Method Marks] 4
+[Reachable Field Marks] 2
+[Actual Class Marks] 5
+[Actual Method Marks] 6
+[Actual Field Marks] 2
+[Reachable class marks more]
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.scheduling.annotation.EnableScheduling
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+main([Ljava/lang/String;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V
+[Reachable field marks more]
+[Actual field marks more]

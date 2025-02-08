@@ -1,0 +1,34 @@
+
+
+
+
+[method][anno]Lorg/springframework/context/annotation/Bean
+ 
+ 
+[method][inheritance]com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;
+ 
+[class][anno]Lorg/springframework/context/annotation/Configuration
+[class][xml]beans;bean:class
+[method][inheritance]org.springframework.format.AnnotationFormatterFactory.getParser(Ljava/lang/annotation/Annotation;Ljava/lang/Class;)Lorg/springframework/format/Parser;
+[class][anno]Lorg/springframework/stereotype/Component
+ 
+[class][anno]Lorg/springframework/stereotype/Service
+ 
+[method][inheritance]org.springframework.format.AnnotationFormatterFactory.getPrinter(Ljava/lang/annotation/Annotation;Ljava/lang/Class;)Lorg/springframework/format/Printer;
+
+有问题的标记：
+[method][anno]Lorg/springframework/web/bind/annotation/GetMapping
+	halo里出现2
+[method][inheritance]org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+	halo 1
+	openkm 1
+[method][inheritance]javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+	openkm 1
+[method][inheritance]com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+	mailreader 1
+	icloud 1
+[method][xml]struts;package;action:method
+	icloud 1
+[class][inheritance]Lcom/opensymphony/xwork2/ActionSupport
+	mailreader 1
+	icloud 1

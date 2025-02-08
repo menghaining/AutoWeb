@@ -1,0 +1,79 @@
+[app classes] 176
+[all classes] 41440
+[reachable app classes] 63
+[all class marks]
+org.springframework.context.annotation.Configuration
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Component
+org.springframework.web.socket.config.annotation.EnableWebSocket
+org.springframework.stereotype.Controller
+org.springframework.context.annotation.EnableAspectJAutoProxy
+org.springframework.context.annotation.DependsOn
+org.springframework.transaction.annotation.Transactional
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.mybatis.spring.annotation.MapperScan
+org.springframework.web.bind.annotation.RestController
+org.apache.ibatis.annotations.Mapper
+javax.websocket.server.ServerEndpoint
+org.springframework.web.bind.annotation.ControllerAdvice
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.aspectj.lang.annotation.Aspect
+com.baomidou.mybatisplus.annotation.TableName
+[reachable class marks]
+org.springframework.context.annotation.Configuration
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Component
+org.springframework.web.socket.config.annotation.EnableWebSocket
+org.springframework.stereotype.Controller
+org.springframework.context.annotation.EnableAspectJAutoProxy
+org.springframework.context.annotation.DependsOn
+org.springframework.transaction.annotation.Transactional
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.mybatis.spring.annotation.MapperScan
+org.apache.ibatis.annotations.Mapper
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.aspectj.lang.annotation.Aspect
+[all method marks]
+org.apache.shiro.authz.annotation.RequiresPermissions
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+org.apache.shiro.authz.annotation.RequiresUser
+org.aspectj.lang.annotation.After
+javax.websocket.OnMessage
+org.aspectj.lang.annotation.Around
+org.springframework.context.annotation.DependsOn
+org.springframework.web.bind.annotation.PostMapping
+org.apache.ibatis.annotations.Select
+org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
+javax.annotation.PostConstruct
+org.springframework.web.bind.annotation.DeleteMapping
+javax.websocket.OnOpen
+javax.websocket.OnClose
+org.aspectj.lang.annotation.Pointcut
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PutMapping
+org.springframework.web.bind.annotation.GetMapping
+org.apache.ibatis.annotations.Update
+[reachable method marks]
+org.aspectj.lang.annotation.Around
+org.springframework.context.annotation.Bean
+org.springframework.context.annotation.DependsOn
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
+org.springframework.web.bind.annotation.GetMapping
+javax.annotation.PostConstruct
+[all field marks]
+javax.annotation.Resource
+com.baomidou.mybatisplus.annotation.TableId
+org.springframework.beans.factory.annotation.Autowired
+org.springframework.context.annotation.Lazy
+com.baomidou.mybatisplus.annotation.TableField
+com.fasterxml.jackson.annotation.JsonIgnore
+[reachable field marks]
+javax.annotation.Resource
+com.baomidou.mybatisplus.annotation.TableId
+org.springframework.context.annotation.Lazy
+com.baomidou.mybatisplus.annotation.TableField
+com.fasterxml.jackson.annotation.JsonIgnore

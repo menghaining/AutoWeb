@@ -1,0 +1,23 @@
+[entry]
+org.springframework.stereotype.Component	org.apache.shiro.session.mgt.SessionValidationScheduler.isEnabled()Z
+org.springframework.stereotype.Service	javax.annotation.PostConstruct
+null	org.springframework.web.bind.annotation.InitBinder
+org.springframework.boot.autoconfigure.SpringBootApplication	main([Ljava/lang/String;)V
+org.springframework.stereotype.Component	org.apache.shiro.session.mgt.SessionValidationScheduler.enableSessionValidation()V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean
+org.springframework.context.annotation.PropertySource	org.springframework.beans.factory.annotation.Value
+org.springframework.stereotype.Component	javax.annotation.PostConstruct
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.GetMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.PostMapping
+[inject on field]
+javax.annotation.Resource
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+[framework call to target]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	null	org.springframework.context.annotation.Primary
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean
+	org.springframework.stereotype.Component	org.springframework.beans.factory.config.BeanFactoryPostProcessor.postProcessBeanFactory(Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V
+	org.springframework.stereotype.Component	org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V

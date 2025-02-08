@@ -1,0 +1,16 @@
+[Reachable Class Marks] 2
+[Reachable Method Marks] 3
+[Reachable Field Marks] 1
+[Actual Class Marks] 0
+[Actual Method Marks] 1
+[Actual Field Marks] 1
+[Reachable class marks more]
+org.springframework.stereotype.Service
+net.sourceforge.stripes.action.SessionScope
+[Actual class marks more]
+[Reachable method marks more]
+net.sourceforge.stripes.validation.Validate
+org.springframework.transaction.annotation.Transactional
+[Actual method marks more]
+[Reachable field marks more]
+[Actual field marks more]

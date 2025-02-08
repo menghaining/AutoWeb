@@ -1,0 +1,16 @@
+[entry]
+/beans/bean/@class	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+/beans/bean/@class	org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.resolvePlaceholder(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+/*[name()='beans']/*[name()='bean']/@class	org.apache.cxf.transport.common.gzip.GZIPOutInterceptor.setThreshold(I)V
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V
+/beans/bean/@class	/beans/bean/@destroy-method
+/beans/bean/@class	org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties()Ljava/util/Properties;
+/beans/bean/property/bean/@class	com.logicaldoc.core.security.dao.UserDAO.setPasswordTtl(I)V
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']	javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+[inject on field]
+/beans/bean/property/bean/property/@name
+/beans/bean/property/@name
+[inject on method]
+[field to target]
+[framework call to target]

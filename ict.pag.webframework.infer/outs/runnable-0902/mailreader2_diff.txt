@@ -1,0 +1,21 @@
+[Reachable Class Marks] 3
+[Reachable Method Marks] 2
+[Reachable Field Marks] 0
+[Actual Class Marks] 3
+[Actual Method Marks] 7
+[Actual Field Marks] 0
+[Reachable class marks more]
+[Actual class marks more]
+[Reachable method marks more]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[Actual method marks more]
+javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+com.opensymphony.xwork2.Preparable.prepare()V
+[Reachable field marks more]
+[Actual field marks more]

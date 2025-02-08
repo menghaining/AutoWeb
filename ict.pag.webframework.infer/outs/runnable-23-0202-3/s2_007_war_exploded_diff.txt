@@ -1,0 +1,13 @@
+[Reachable Class Marks] 1
+[Reachable Method Marks] 0
+[Reachable Field Marks] 0
+[Actual Class Marks] 0
+[Actual Method Marks] 0
+[Actual Field Marks] 0
+[Reachable class marks more]
+/struts/package/action/@class
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+[Reachable field marks more]
+[Actual field marks more]

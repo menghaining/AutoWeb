@@ -1,0 +1,22 @@
+[Reachable Class Marks] 8
+[Reachable Method Marks] 0
+[Reachable Field Marks] 1
+[Actual Class Marks] 2
+[Actual Method Marks] 4
+[Actual Field Marks] 1
+[Reachable class marks more]
+/*[name()='beans']/*[name()='bean']/@class
+org.springframework.stereotype.Service
+org.springframework.stereotype.Controller
+/struts/package/interceptors/interceptor/@class
+org.springframework.stereotype.Repository
+org.springframework.context.annotation.Scope
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V
+org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+[Reachable field marks more]
+[Actual field marks more]

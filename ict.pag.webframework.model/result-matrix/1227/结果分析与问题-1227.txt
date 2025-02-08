@@ -1,0 +1,38 @@
+结果总结：
+输入共涉及标签种类(正负都计入)：140
+结果涉及标签种类：102
+结果Entry共计103项
+几乎所有项只有一个mark，
+	只有class mark的为入口类标签
+	反之也有method mark的为 入口方法标签
+
+1. 配置相关(容器初始化的相关调用没有去除干净)
+ @EnableWebMvc
+ @Configuration
+ WebMvcConfigurer.addResourceHandlers
+ WebMvcConfigurer.addViewControllers
+ WebMvcConfigurer.configureViewResolvers
+ WebMvcConfigurer.configurePathMatch
+ AbstractAnnotationConfigDispatcherServletInitializer.getServletConfigClasses 
+--------=共计 7 =--------
+
+2. 不确定
+ HandlerMethodArgumentResolver.supportsParameter 当前resolver是否支持
+ StrutsTypeConverter.convertFromString 字符串和对象之间的转换
+ SessionValidationScheduler.enableSessionValidation 打开验证功能
+ PropertyPlaceholderConfigurer.resolvePlaceholder 自定义处理占位符
+ AnnotationFormatterFactory.getPrinter 获取printer
+ AnnotationFormatterFactory.getParser
+ AbstractRoutingDataSource.determineCurrentLookupKey() 获取当前数据源
+ net.sourceforge.stripes.action.ActionBean.getContext() 获得当前context
+ org.apache.shiro.session.mgt.SessionValidationScheduler.isEnabled()Z 判断验证是否打开
+ com.opensymphony.xwork2.ModelDriven.getModel() action获取参数的方式
+ @SessionAttributes 用于多请求之间数据共享，
+ @Bean 在Configuration注解的类内，初始化时会被调用
+ @ResponseBody 返回结果写入response body
+--------=共计 13=--------
+
+特殊说明：
+@ModelAttribute 在响应方法之前被执行
+@InitBinder 为当前控制器注册一个属性编辑器，只对当前Controller有效
+org.apache.struts2.interceptor.ApplicationAware.setApplication 初始化的调用

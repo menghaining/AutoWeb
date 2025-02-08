@@ -1,0 +1,18 @@
+[entry]
+org.springframework.stereotype.Component	org.aspectj.lang.annotation.Around
+org.springframework.stereotype.Component	org.springframework.context.event.EventListener
+org.aspectj.lang.annotation.Aspect	org.aspectj.lang.annotation.Around
+org.springframework.stereotype.Component	org.springframework.scheduling.annotation.Async
+[inject on field]
+org.springframework.beans.factory.annotation.Value
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+[framework call to target]
+org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;
+	org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping	[null, org.aspectj.lang.annotation.Around, null, org.springframework.web.bind.annotation.GetMapping]
+	org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.GetMapping	[null, org.aspectj.lang.annotation.Around, null, org.springframework.web.bind.annotation.GetMapping]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean	[]
+	org.springframework.stereotype.Component	org.springframework.context.event.EventListener	[]
+	org.springframework.boot.context.properties.EnableConfigurationProperties	org.springframework.context.annotation.Bean	[]

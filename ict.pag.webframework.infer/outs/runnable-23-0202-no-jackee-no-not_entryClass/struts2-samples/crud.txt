@@ -1,0 +1,7 @@
+[entry]
+/struts/package/action/@class	/struts/package/action/@method
+/struts/package/action/@class	com.opensymphony.xwork2.Preparable.prepare()V
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

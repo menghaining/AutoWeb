@@ -1,0 +1,188 @@
+[
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Ljavax/servlet/annotation/WebListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.HandlerInterceptor.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;interceptors;interceptor;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/http/HttpServletRequestWrapper"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Repository"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Service"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.beans.factory.annotation.Qualifier",
+			"[anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.annotation.Resource"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.annotation.Resource"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[xml]beans;bean;property:name"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.beans.factory.annotation.Qualifier",
+			"[anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.inject.Inject"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.annotation.Resource"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[xml]beans;bean;property:name"
+		]
+	}
+]

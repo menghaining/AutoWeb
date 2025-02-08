@@ -1,0 +1,19 @@
+[Reachable Class Marks] 7
+[Reachable Method Marks] 4
+[Reachable Field Marks] 3
+[Actual Class Marks] 5
+[Actual Method Marks] 6
+[Actual Field Marks] 2
+[Reachable class marks more]
+org.springframework.stereotype.Component
+org.springframework.stereotype.Service
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.web.bind.annotation.ResponseBody
+[Actual method marks more]
+main([Ljava/lang/String;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V
+[Reachable field marks more]
+com.fasterxml.jackson.annotation.JsonFormat
+[Actual field marks more]

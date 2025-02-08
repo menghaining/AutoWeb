@@ -1,0 +1,33 @@
+[Reachable Class Marks] 14
+[Reachable Method Marks] 7
+[Reachable Field Marks] 5
+[Actual Class Marks] 2
+[Actual Method Marks] 2
+[Actual Field Marks] 1
+[Reachable class marks more]
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.web.socket.config.annotation.EnableWebSocket
+org.springframework.context.annotation.EnableAspectJAutoProxy
+org.springframework.context.annotation.DependsOn
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.context.annotation.Configuration
+org.mybatis.spring.annotation.MapperScan
+org.springframework.stereotype.Component
+org.springframework.stereotype.Service
+org.aspectj.lang.annotation.Aspect
+org.apache.ibatis.annotations.Mapper
+org.springframework.transaction.annotation.Transactional
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
+javax.annotation.PostConstruct
+org.springframework.context.annotation.DependsOn
+org.springframework.context.annotation.Bean
+org.aspectj.lang.annotation.Around
+[Actual method marks more]
+[Reachable field marks more]
+com.baomidou.mybatisplus.annotation.TableId
+com.fasterxml.jackson.annotation.JsonIgnore
+org.springframework.context.annotation.Lazy
+com.baomidou.mybatisplus.annotation.TableField
+[Actual field marks more]

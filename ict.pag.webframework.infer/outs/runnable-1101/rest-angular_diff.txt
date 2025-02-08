@@ -1,0 +1,14 @@
+[Reachable Class Marks] 0
+[Reachable Method Marks] 0
+[Reachable Field Marks] 0
+[Actual Class Marks] 1
+[Actual Method Marks] 1
+[Actual Field Marks] 0
+[Reachable class marks more]
+[Actual class marks more]
+/struts/package/interceptors/interceptor/@class
+[Reachable method marks more]
+[Actual method marks more]
+com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.doIntercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+[Reachable field marks more]
+[Actual field marks more]

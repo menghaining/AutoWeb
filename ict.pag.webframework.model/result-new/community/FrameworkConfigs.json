@@ -1,0 +1,753 @@
+[
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Scheduled"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]main([Ljava/lang/String;)V[MAIN]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[anno]org.springframework.boot.autoconfigure.SpringBootApplication",
+			"[anno]org.mybatis.spring.annotation.MapperScan"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Scheduled"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.HandlerInterceptor.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.HandlerInterceptor[implement]",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.ResponseBody"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.transaction.annotation.Transactional"
+		],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties",
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		],
+		"isDeclare": true
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.context.annotation.Configuration"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service",
+			"[class][anno]org.springframework.boot.context.properties.ConfigurationProperties"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.boot.autoconfigure.SpringBootApplication",
+			"[class][anno]org.mybatis.spring.annotation.MapperScan",
+			"[class][anno]org.springframework.scheduling.annotation.EnableScheduling"
+		],
+		"kind": "Class-Managed"
+	}
+]

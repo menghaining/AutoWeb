@@ -1,0 +1,94 @@
+[app classes] 48
+[all classes] 54805
+[reachable app classes] 37
+[all class marks]
+org.springframework.context.annotation.Configuration
+org.hibernate.annotations.Cache
+javax.persistence.MappedSuperclass
+org.springframework.stereotype.Controller
+com.domingosuarez.boot.autoconfigure.jade4j.JadeHelper
+javax.persistence.Table
+org.springframework.beans.factory.annotation.Qualifier
+javax.persistence.Entity
+org.springframework.transaction.annotation.Transactional
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.cache.annotation.EnableCaching
+org.springframework.web.bind.annotation.ControllerAdvice
+org.springframework.web.bind.annotation.ResponseStatus
+org.springframework.stereotype.Repository
+org.springframework.boot.autoconfigure.SpringBootApplication
+[reachable class marks]
+org.springframework.context.annotation.Configuration
+org.hibernate.annotations.Cache
+javax.persistence.MappedSuperclass
+org.springframework.stereotype.Controller
+com.domingosuarez.boot.autoconfigure.jade4j.JadeHelper
+javax.persistence.Table
+javax.persistence.Entity
+org.springframework.transaction.annotation.Transactional
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.cache.annotation.EnableCaching
+org.springframework.web.bind.annotation.ControllerAdvice
+org.springframework.stereotype.Repository
+org.springframework.boot.autoconfigure.SpringBootApplication
+[all method marks]
+javax.persistence.PrePersist
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.cache.annotation.CacheEvict
+javax.annotation.PostConstruct
+org.springframework.data.jpa.repository.Query
+org.springframework.web.bind.annotation.RequestMapping
+org.springframework.cache.annotation.Cacheable
+javax.persistence.PreUpdate
+org.springframework.scheduling.annotation.Async
+org.springframework.beans.factory.annotation.Autowired
+org.springframework.web.bind.annotation.ResponseStatus
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.GetMapping
+[reachable method marks]
+org.springframework.cache.annotation.Cacheable
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.cache.annotation.CacheEvict
+javax.annotation.PostConstruct
+org.springframework.data.jpa.repository.Query
+org.springframework.web.bind.annotation.RequestMapping
+[all field marks]
+javax.persistence.GeneratedValue
+javax.persistence.ManyToMany
+org.hibernate.annotations.Cache
+javax.persistence.OneToMany
+org.hibernate.validator.constraints.NotEmpty
+org.springframework.beans.factory.annotation.Qualifier
+com.fasterxml.jackson.annotation.JsonIgnore
+javax.persistence.Id
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+org.hibernate.annotations.Type
+javax.persistence.Lob
+javax.validation.constraints.NotNull
+org.springframework.beans.factory.annotation.Autowired
+javax.persistence.Column
+javax.persistence.Enumerated
+[reachable field marks]
+javax.persistence.GeneratedValue
+javax.persistence.ManyToMany
+org.hibernate.annotations.Cache
+javax.persistence.OneToMany
+org.hibernate.validator.constraints.NotEmpty
+org.springframework.beans.factory.annotation.Qualifier
+com.fasterxml.jackson.annotation.JsonIgnore
+javax.persistence.Id
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+org.hibernate.annotations.Type
+javax.persistence.Lob
+javax.validation.constraints.NotNull
+org.springframework.beans.factory.annotation.Autowired
+javax.persistence.Column
+javax.persistence.Enumerated

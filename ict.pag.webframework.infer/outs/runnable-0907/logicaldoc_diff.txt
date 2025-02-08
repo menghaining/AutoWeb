@@ -1,0 +1,21 @@
+[Reachable Class Marks] 6
+[Reachable Method Marks] 1
+[Reachable Field Marks] 2
+[Actual Class Marks] 5
+[Actual Method Marks] 9
+[Actual Field Marks] 2
+[Reachable class marks more]
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.resolvePlaceholder(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;
+org.apache.cxf.transport.common.gzip.GZIPOutInterceptor.setThreshold(I)V
+org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties()Ljava/util/Properties;
+javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V
+[Reachable field marks more]
+[Actual field marks more]

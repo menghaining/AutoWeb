@@ -1,0 +1,17 @@
+[Reachable Class Marks] 1
+[Reachable Method Marks] 1
+[Reachable Field Marks] 3
+[Actual Class Marks] 1
+[Actual Method Marks] 1
+[Actual Field Marks] 0
+[Reachable class marks more]
+[Actual class marks more]
+[Reachable method marks more]
+com.opensymphony.xwork2.inject.Inject
+[Actual method marks more]
+com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.doIntercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+[Reachable field marks more]
+javax.validation.constraints.Max
+javax.validation.constraints.Min
+org.hibernate.validator.constraints.NotBlank
+[Actual field marks more]

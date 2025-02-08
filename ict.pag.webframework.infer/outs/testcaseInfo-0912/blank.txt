@@ -1,0 +1,11 @@
+[app classes] 4
+[all classes] 4439
+[all class marks]
+/struts/package/action/@class
+[reachable class marks]
+/struts/package/action/@class
+[all method marks]
+org.apache.struts2.interceptor.validation.SkipValidation
+[reachable method marks]
+[all field marks]
+[reachable field marks]

@@ -1,0 +1,7 @@
+[entry]
+null	net.sourceforge.stripes.action.DefaultHandler
+[inject on field]
+net.sourceforge.stripes.integration.spring.SpringBean
+[inject on method]
+[field to target]
+[framework call to target]

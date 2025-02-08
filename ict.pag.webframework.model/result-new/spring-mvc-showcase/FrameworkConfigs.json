@@ -1,0 +1,1081 @@
+[
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller",
+			"[anno]org.springframework.web.bind.annotation.SessionAttributes"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer.getServletConfigClasses()[Ljava/lang/Class;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller",
+			"[anno]org.springframework.web.bind.annotation.SessionAttributes"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureViewResolvers(Lorg/springframework/web/servlet/config/annotation/ViewResolverRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ResponseBody",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer.getRootConfigClasses()[Ljava/lang/Class;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureAsyncSupport(Lorg/springframework/web/servlet/config/annotation/AsyncSupportConfigurer;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory.getFieldTypes()Ljava/util/Set;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ResponseBody",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller",
+			"[anno]org.springframework.web.bind.annotation.SessionAttributes"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ResponseBody",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addViewControllers(Lorg/springframework/web/servlet/config/annotation/ViewControllerRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addFormatters(Lorg/springframework/format/FormatterRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory.getParser(Ljava/lang/annotation/Annotation;Ljava/lang/Class;)Lorg/springframework/format/Parser;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ExceptionHandler",
+			"[anno]org.springframework.web.bind.annotation.ResponseBody"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configurePathMatch(Lorg/springframework/web/servlet/config/annotation/PathMatchConfigurer;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ResponseBody",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver.resolveArgument(Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ExceptionHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Scheduled"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers(Ljava/util/List;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver.supportsParameter(Lorg/springframework/core/MethodParameter;)Z[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ExceptionHandler",
+			"[anno]org.springframework.web.bind.annotation.ResponseBody"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ExceptionHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestControllerAdvice"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory.getPrinter(Ljava/lang/annotation/Annotation;Ljava/lang/Class;)Lorg/springframework/format/Printer;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ResponseBody",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ResponseBody",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.format.annotation.DateTimeFormat"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.validator.constraints.NotEmpty"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[method][anno]javax.inject.Inject"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.format.annotation.NumberFormat"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.format.annotation.DateTimeFormat"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.format.annotation.DateTimeFormat"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.format.annotation.NumberFormat"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.format.annotation.DateTimeFormat"
+		]
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.context.annotation.Configuration"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestControllerAdvice"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller",
+			"[class][anno]org.springframework.web.bind.annotation.SessionAttributes"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.context.annotation.ComponentScan",
+			"[class][anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[class][anno]org.springframework.context.annotation.Configuration",
+			"[class][anno]org.springframework.web.servlet.config.annotation.EnableWebMvc"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	}
+]

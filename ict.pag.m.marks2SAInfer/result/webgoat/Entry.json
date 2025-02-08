@@ -1,0 +1,38 @@
+[
+	{
+		"methodMarks": [
+			"inhe:mtd:contextInitialized(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"inhe:class:javax.servlet.ServletContextListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"inhe:mtd:setApplicationContext(Lorg/springframework/context/ApplicationContext;)V"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"inhe:class:org.springframework.context.ApplicationContextAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"anno:mtd:org.springframework.web.bind.annotation.RequestMapping"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"anno:class:org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"inhe:mtd:doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+		],
+		"kind": "ENTRY",
+		"classMarks": [
+			"inhe:class:javax.servlet.http.HttpServlet"
+		]
+	}
+]

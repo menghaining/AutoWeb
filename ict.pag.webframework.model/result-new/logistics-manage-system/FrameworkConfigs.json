@@ -1,0 +1,521 @@
+[
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor[extends]",
+			"[xml]struts;package;interceptors;interceptor:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor[extends]",
+			"[xml]struts;package;interceptors;interceptor:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.Preparable[implement]",
+			"[xml]beans;bean:class",
+			"[inheritance]org.apache.struts2.interceptor.RequestAware[implement]",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ModelDriven[implement]",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ModelDriven[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.Preparable[implement]",
+			"[xml]beans;bean:class",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ModelDriven[implement]",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.Preparable[implement]",
+			"[xml]beans;bean:class",
+			"[inheritance]org.apache.struts2.interceptor.RequestAware[implement]",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ModelDriven[implement]",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ModelDriven[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor[extends]",
+			"[xml]struts;package;interceptors;interceptor:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor[extends]",
+			"[xml]struts;package;interceptors;interceptor:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method[class]struts;package;action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class",
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[xml]beans;bean;property:ref",
+			"[xml]beans;bean;property:name"
+		],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [],
+		"fieldMarks": [
+			"[field][xml]beans;bean;property:name[class]beans;bean",
+			"[field][xml]beans;bean;property:ref[class]beans;bean"
+		],
+		"isDeclare": true
+	},
+	{
+		"value": "[xml]beans;bean:id",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]struts;package;interceptors;interceptor:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]struts;package;interceptors;interceptor:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]struts;package;interceptors;interceptor:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class",
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class",
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class",
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class",
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]struts;package;interceptors;interceptor:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class",
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][xml]beans;bean:class",
+			"[class][xml]struts;package;action:class"
+		],
+		"kind": "Class-Managed"
+	}
+]

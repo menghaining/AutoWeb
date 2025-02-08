@@ -1,0 +1,7 @@
+[entry]
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.inject.Inject
+[inject on field]
+[inject on method]
+com.opensymphony.xwork2.inject.Inject
+[field to target]
+[framework call to target]

@@ -1,0 +1,13 @@
+[app classes] 9
+[all classes] 4564
+[reachable app classes] 3
+[all class marks]
+/struts/package/action/@class
+/struts/bean/@class
+[reachable class marks]
+/struts/package/action/@class
+[all method marks]
+flexjson.JSON
+[reachable method marks]
+[all field marks]
+[reachable field marks]

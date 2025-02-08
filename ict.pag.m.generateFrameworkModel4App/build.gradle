@@ -1,0 +1,58 @@
+
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+}
+
+repositories {
+    // Use jcenter for resolving dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+  
+	maven { url "http://172.17.2.177:9004/repository/maven-public" }
+	
+}
+
+dependencies {
+	compile(project(':ict.pag.m.frameworkInfoUtil'))
+	compile(project(':ict.pag.m.marks2SAInfer'))
+	
+    // This dependency is exported to consumers, that is to say found on their compile classpath.
+    api 'org.apache.commons:commons-math3:3.6.1'
+
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
+    implementation 'com.google.guava:guava:28.0-jre'
+
+	// https://mvnrepository.com/artifact/dom4j/dom4j
+	implementation group: 'dom4j', name: 'dom4j', version: '1.6.1'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+    
+    // https://mvnrepository.com/artifact/org.python/jython
+	implementation group: 'org.python', name: 'jython', version: '2.5.3'
+	
+	 // https://mvnrepository.com/artifact/org.json/json
+	implementation group: 'org.json', name: 'json', version: '20201115'
+	
+	// https://mvnrepository.com/artifact/commons-cli/commons-cli
+	implementation group: 'commons-cli', name: 'commons-cli', version: '1.4'
+	
+    
+    
+    def walaVersion = "1.5.6-SNAPSHOT"
+    compile group: 'org.smali', name: 'dexlib2', version: '2.2.6'
+    compile group: 'com.ibm.wala', name: 'com.ibm.wala.shrike', version: walaVersion
+    compile group: 'com.ibm.wala', name: 'com.ibm.wala.util', version: walaVersion
+    compile group: 'com.ibm.wala', name: 'com.ibm.wala.core', version: walaVersion
+    compile group: 'com.ibm.wala', name: 'com.ibm.wala.cast', version: walaVersion
+    compile group: 'com.ibm.wala', name: 'com.ibm.wala.dalvik', version: walaVersion
+    
+    // https://mvnrepository.com/artifact/commons-codec/commons-codec
+	compile group: 'commons-codec', name: 'commons-codec', version: '1.5'
+	
+	
+	
+    
+    
+}

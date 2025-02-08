@@ -1,0 +1,13 @@
+[entry]
+/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+/struts/package/action/@class	/struts/package/action/@method
+[inject on field]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+[inject on method]
+[field to target]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref	/*[name()='beans']/*[name()='bean']/@id
+[framework call to target]
+com.opensymphony.xwork2.ActionInvocation.invoke()Ljava/lang/String;
+	/struts/package/action/@class	/struts/package/action/@method	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]

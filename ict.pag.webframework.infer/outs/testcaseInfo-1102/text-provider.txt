@@ -1,0 +1,11 @@
+[app classes] 6
+[all classes] 4599
+[reachable app classes] 0
+[all class marks]
+/struts/bean/@class
+[reachable class marks]
+[all method marks]
+com.opensymphony.xwork2.inject.Inject
+[reachable method marks]
+[all field marks]
+[reachable field marks]

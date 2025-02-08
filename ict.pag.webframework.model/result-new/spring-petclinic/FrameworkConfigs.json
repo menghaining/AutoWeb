@@ -1,0 +1,424 @@
+[
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]javax.xml.bind.annotation.XmlElement"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]javax.xml.bind.annotation.XmlRootElement"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.validation.Validator.supports(Ljava/lang/Class;)Z[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.validation.Validator[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.cache.annotation.EnableCaching",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]javax.xml.bind.annotation.XmlElement"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]javax.persistence.Entity",
+			"[anno]javax.persistence.Table"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]main([Ljava/lang/String;)V[MAIN]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.autoconfigure.SpringBootApplication"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.InitBinder"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.InitBinder"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.InitBinder"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.InitBinder"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]javax.xml.bind.annotation.XmlElement"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column",
+			"[field][anno]org.springframework.format.annotation.DateTimeFormat"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[method][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.ManyToOne",
+			"[field][anno]javax.persistence.JoinColumn"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.ManyToOne",
+			"[field][anno]javax.persistence.JoinColumn"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.OneToMany"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.ManyToMany",
+			"[field][anno]javax.persistence.JoinTable"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.ManyToOne",
+			"[field][anno]javax.persistence.JoinColumn"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Transient"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]javax.persistence.ManyToOne",
+			"[field][anno]javax.persistence.JoinColumn"
+		],
+		"isDeclare": true
+	},
+	{
+		"value": "[name][ClassSimpleName]",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.MappedSuperclass"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.cache.annotation.EnableCaching",
+			"[class][anno]org.springframework.context.annotation.Configuration"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.validation.Validator[implement]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.xml.bind.annotation.XmlRootElement"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.format.Formatter[implement]",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.MappedSuperclass"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.MappedSuperclass"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.boot.autoconfigure.SpringBootApplication"
+		],
+		"kind": "Class-Managed"
+	}
+]

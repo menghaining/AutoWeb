@@ -1,0 +1,11 @@
+[app classes] 3
+[all classes] 4596
+[reachable app classes] 3
+[all class marks]
+[reachable class marks]
+[all method marks]
+org.apache.struts2.convention.annotation.Action
+[reachable method marks]
+org.apache.struts2.convention.annotation.Action
+[all field marks]
+[reachable field marks]

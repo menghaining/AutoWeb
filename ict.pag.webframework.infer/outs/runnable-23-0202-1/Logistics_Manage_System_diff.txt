@@ -1,0 +1,18 @@
+[Reachable Class Marks] 3
+[Reachable Method Marks] 2
+[Reachable Field Marks] 2
+[Actual Class Marks] 5
+[Actual Method Marks] 4
+[Actual Field Marks] 2
+[Reachable class marks more]
+[Actual class marks more]
+/*[name()='beans']/*[name()='bean']/@id
+/struts/package/@namespace
+[Reachable method marks more]
+/struts/package/action/result/@name
+[Actual method marks more]
+com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;
+com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+[Reachable field marks more]
+[Actual field marks more]

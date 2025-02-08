@@ -1,0 +1,27 @@
+[app classes] 5
+[all classes] 5519
+[reachable app classes] 5
+[all class marks]
+/struts/package/action/@class
+[reachable class marks]
+/struts/package/action/@class
+[all method marks]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[reachable method marks]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[all field marks]
+javax.validation.constraints.Size
+javax.validation.Valid
+org.hibernate.validator.constraints.Email
+org.hibernate.validator.constraints.NotEmpty
+javax.validation.constraints.Pattern
+org.hibernate.validator.constraints.NotBlank
+[reachable field marks]
+javax.validation.constraints.Size
+javax.validation.Valid
+org.hibernate.validator.constraints.Email
+org.hibernate.validator.constraints.NotEmpty
+javax.validation.constraints.Pattern
+org.hibernate.validator.constraints.NotBlank

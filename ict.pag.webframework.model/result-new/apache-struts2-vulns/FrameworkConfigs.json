@@ -1,0 +1,19 @@
+[
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]struts;package;action:class",
+			"[inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		]
+	},
+	{
+		"value": [
+			"[class][xml]struts;package;action:class",
+			"[class][inheritance]com.opensymphony.xwork2.ActionSupport[extends]"
+		],
+		"kind": "Class-Managed"
+	}
+]

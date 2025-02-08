@@ -1,0 +1,13 @@
+[class][inheritance]com.opensymphony.xwork2.Preparable[implement]
+[class][xml]struts;package;interceptors;interceptor:class
+[field][xml]beans;bean;property:name[class]beans;bean
+[field][xml]beans;bean;property:ref[class]beans;bean
+[class][inheritance]org.apache.struts2.interceptor.RequestAware[implement]
+[class][xml]beans;bean:class
+[method][xml]struts;package;action:method[class]struts;package;action
+[class][inheritance]com.opensymphony.xwork2.ModelDriven[implement]
+[method][inheritance]com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;[implement]
+[class][xml]struts;package;action:class
+[class][inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor[extends]
+[class][inheritance]com.opensymphony.xwork2.ActionSupport[extends]
+[method][inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;[extends]

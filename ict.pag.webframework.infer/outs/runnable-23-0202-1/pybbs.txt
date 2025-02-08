@@ -1,0 +1,10 @@
+[entry]
+null	org.springframework.web.bind.annotation.PostMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.context.annotation.EnableAspectJAutoProxy	main([Ljava/lang/String;)V
+org.springframework.boot.autoconfigure.SpringBootApplication	main([Ljava/lang/String;)V
+[inject on field]
+javax.annotation.Resource
+[inject on method]
+[field to target]
+[framework call to target]

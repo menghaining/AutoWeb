@@ -1,0 +1,15 @@
+[entry]
+/beans/bean/@class	/beans/bean/@destroy-method
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+/beans/bean/@class	org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties()Ljava/util/Properties;
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']	javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+/beans/bean/@class	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+/*[name()='beans']/*[name()='bean']/@class	org.apache.cxf.transport.common.gzip.GZIPOutInterceptor.setThreshold(I)V
+[inject on field]
+/beans/bean/property/bean/property/@name
+[inject on method]
+[field to target]
+[framework call to target]
+org.springframework.context.ApplicationContext.getBean(Ljava/lang/String;)Ljava/lang/Object;
+	/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']	javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V

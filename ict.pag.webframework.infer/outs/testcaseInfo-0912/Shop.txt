@@ -1,0 +1,19 @@
+[app classes] 41
+[all classes] 17434
+[all class marks]
+/*[name()='beans']/*[name()='bean']/@class
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[reachable class marks]
+/*[name()='beans']/*[name()='bean']/@class
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[all method marks]
+org.junit.BeforeClass
+org.junit.Test
+org.junit.AfterClass
+[reachable method marks]
+[all field marks]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref
+[reachable field marks]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref

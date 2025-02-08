@@ -1,0 +1,42 @@
+[app classes] 94
+[all classes] 19544
+[all class marks]
+org.mybatis.spring.annotation.MapperScan
+org.springframework.scheduling.annotation.EnableScheduling
+org.springframework.context.annotation.Configuration
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.web.bind.annotation.ControllerAdvice
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+[reachable class marks]
+org.mybatis.spring.annotation.MapperScan
+org.springframework.scheduling.annotation.EnableScheduling
+org.springframework.context.annotation.Configuration
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+[all method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.scheduling.annotation.Scheduled
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.transaction.annotation.Transactional
+org.springframework.web.bind.annotation.RequestMapping
+[reachable method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.scheduling.annotation.Scheduled
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.RequestMapping
+[all field marks]
+org.springframework.beans.factory.annotation.Value
+org.springframework.beans.factory.annotation.Autowired
+[reachable field marks]
+org.springframework.beans.factory.annotation.Value
+org.springframework.beans.factory.annotation.Autowired

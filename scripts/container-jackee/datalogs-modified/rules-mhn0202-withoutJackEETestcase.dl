@@ -1,0 +1,1164 @@
+#include "../../commonMacros.dl"
+
+// The following 3 predicate declarations are needed in case that
+// statistics are enabled.
+.decl MockObjFromArray(?type:ReferenceType)
+.decl MockObjFromField(?type:ReferenceType)
+.decl MockObjFromFormal(?type:ReferenceType)
+
+.decl ApplicationConcreteType(?type:ClassType)
+.decl BridgeMethod(?bridge:Method, ?type:Type)
+
+.decl WebApplicationEntryPointClass(?type: Type)
+.decl MockOpenProgramEntryPoint(?class:Type, ?method:Method)
+.decl OpenProgramEntryPoint(?method:Method)
+.decl PossibleWebApplicationEntryPoint(?type:Type)
+
+.decl MethodWithBuggySerializableArg(?method:Method)
+
+.decl isSpringApplication(?value:number)
+
+.decl ErasedEntryPointMethod(?method:Method)
+.decl SerializableEntryPointMethod(?method:Method)
+
+.decl ReachableThroughInjection(?type:Type)
+
+.decl isBeanId(?id:symbol)
+.decl Bean_Parent(?id:symbol, ?parentId:symbol)
+.decl ConcreteBean_Id(?class:ClassType, ?id:symbol)
+.decl isAbstractBeanId(?id:symbol)
+
+.decl TypeConvertToBeanId(?type:Type, ?beanId:symbol)
+
+.decl AllApplicationConcreteImplementations(?type1:ClassType, ?type2:Type)
+.decl TypeHasApplicationConcreteSubtypes(?type:Type)
+.decl TypeHasNoApplicationConcreteImplementations(?type:Type)
+.decl AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?type:Type)
+.decl NonApplicationConcreteImplementations(?class:Type, ?staticType:Type)
+.decl NonApplicationConcreteImplementationsOrd(?classOrd:number, ?staticType:Type)
+.decl NonApplicationConcreteImplementationRepresentative(?class:Type, ?staticType:Type)
+
+/**
+ *  Mock arguments for entry points
+ **/
+.decl MockObjFromOpenProgramEntryPointArg(?value:mainAnalysis.Value)
+
+.decl IncompletelyMockedMethod(?method: Method)
+.decl TypeCannotBeMocked(?type:Type)
+
+/**
+ * Spring Beans - XML
+ **/
+.decl isConcreteBean(?bean:Type)
+.decl MVCInterceptorBean(?bean:Type)
+.decl Validator(?class:Type)
+.decl AuthenticationProviderBean(?bean:Type)
+.decl AuthenticationFilterBean(?bean:Type)
+.decl AuthenticationEntryPoint(?type:Type)
+.decl ApplicationListener(?type:Type)
+
+/**
+ *  Mock receivers for entry points
+ **/
+.decl MockObject(?value:mainAnalysis.Value, ?class:Type)
+.decl MockObjFromOpenProgramEntryPointReceiver(?value:mainAnalysis.Value)
+
+.decl MockObject1(?value:mainAnalysis.Value, ?class:Type)
+.decl MockObject3(?value:mainAnalysis.Value, ?class:Type)
+.decl MockObject4(?value:mainAnalysis.Value, ?class:Type)
+.decl MockObject5(?value:mainAnalysis.Value, ?class:Type)
+
+MockObject(?value, ?class) :-
+  MockObject1(?value, ?class);
+  MockObject3(?value, ?class);
+  MockObject4(?value, ?class);
+  MockObject5(?value, ?class).
+
+// delcare-add-mhn
+// all class annotations in entry semantic
+.decl AddedClassAnnotation(?type: Type)
+// all class xml in entry semantic 
+.decl AddedClassXML(?class: Type)
+// all super class / interface in entry semantic
+.decl AddedClassExtends(?class:Type)
+// the classes configured by both extends and xml-text, but the xml-text jackee cannot parse
+.decl AddedClass(?class: Type)
+
+// the xml and annotation on the field need to be injected
+.decl AddedFieldInject(?field:Field)
+// annotations about field to the target
+.decl AddedField2Target(?field:Field, ?type:Type)
+// xml about field to the target
+.decl AddedBeanFieldInjection(?beanClass:ClassType, ?injectedField:Field, ?value:mainAnalysis.Value)
+.decl AddedFieldObject(?type: Type)
+
+// all method annotations in entry semantic
+.decl AddedMethodAnnotation(?method: Method)
+// all method xml in entry semantic
+.decl AddedMethodXML(?class:Type, ?method: Method)
+// all override methods in entry semantic
+.decl AddedMethodExtends(?class:Type, ?method:Method)
+
+// indirect call semantic
+.decl AddedTargetClassAnnotation(?type: Type)
+.decl AddedTargetClassXML(?class: Type)
+.decl AddedTargetClassExtends(?class:Type)
+.decl AddedTargetMethodExtends(?class:Type, ?method:Method)
+.decl AddedTargetMethodAnnotation(?method: Method)
+.decl AddedTargetMethodXML(?class:Type, ?method: Method)
+
+//end-declare-add-mhn
+
+// start-tmp-0822-diff: added the configs for test
+// AddedClass(?class) :-
+//     AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpSessionListener");
+//     AllApplicationConcreteImplementations(?class, "org.springframework.web.filter.OncePerRequestFilter").
+
+// AddedTargetClassAnnotation(?type) :-
+//     Type_Annotation(?type, "org.springframework.boot.context.properties.EnableConfigurationProperties").
+// AddedTargetMethodExtends(?class, ?method):-
+//   AllApplicationConcreteImplementations(?class, "org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice"),
+//   Method_DeclaringType(?method, ?class),
+//   (Method_SimpleName(?method, "beforeBodyWrite");
+//   Method_SimpleName(?method, "supports")).
+// AddedTargetMethodExtends(?class, ?method) :-
+//   AllApplicationConcreteImplementations(?class, "javax.servlet.ServletContextListener"),
+//   Method_DeclaringType(?method, ?class),
+//   (Method_SimpleName(?method, "contextDestroyed")).
+// AddedTargetMethodExtends(?class, ?method) :-
+//   AllApplicationConcreteImplementations(?class, "freemarker.template.TemplateDirectiveModel"),
+//   Method_DeclaringType(?method, ?class),
+//   (Method_SimpleName(?method, "execute")).
+// AddedTargetMethodExtends(?class, ?method) :-
+//   AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ModelDriven"),
+//   Method_DeclaringType(?method, ?class),
+//   Method_SimpleName(?method, "getModel").
+
+// AddedTargetClassExtends(?class):-
+//   AllApplicationConcreteImplementations(?class, "org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice");
+//   AllApplicationConcreteImplementations(?class, "javax.servlet.ServletContextListener");
+//   AllApplicationConcreteImplementations(?class, "freemarker.template.TemplateDirectiveModel");
+//   AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ModelDriven").
+
+// AddedClassAnnotation(?type):-
+//    Type_Annotation(?type, "org.springframework.data.jpa.repository.config.EnableJpaAuditing");
+//    Type_Annotation(?type, "org.springframework.data.jpa.repository.config.EnableJpaRepositories");
+//    Type_Annotation(?type, "org.springframework.scheduling.annotation.EnableAsync");
+//    Type_Annotation(?type, "org.springframework.scheduling.annotation.EnableScheduling");
+//    Type_Annotation(?type, "org.springframework.web.servlet.config.annotation.EnableWebMvc").
+
+// AddedClassAnnotation(?type):-
+//     Type_Annotation(?type, "org.springframework.boot.autoconfigure.SpringBootApplication").
+
+// AddedClassAnnotation(?type):-
+//   Type_Annotation(?type, "org.mybatis.spring.annotation.MapperScan").
+
+
+// AddedClassExtends(?class) :-
+//   basic.SubtypeOf(?class, "org.springframework.web.servlet.mvc.AbstractController");
+//   basic.SubtypeOf(?class, "org.springframework.web.servlet.HandlerInterceptor");
+//   basic.SubtypeOf(?class, "org.springframework.web.filter.OncePerRequestFilter");
+//   AllApplicationConcreteImplementations(?class, "org.apache.shiro.session.mgt.SessionValidationScheduler").
+
+//===================================================================
+
+// AddedField2Target(?injectedField, ?beanType) :-
+//   Field_Annotation(?injectedField, "org.springframework.beans.factory.annotation.Qualifier"),
+//   AnnotationElement("field", ?injectedField, "0", "0.0", _, ?alias, "-"),
+//   Type_Annotation(?beanType, "org.springframework.stereotype.Service"),
+//   AnnotationElement("type", ?beanType, "0", "0.0", _, ?alias, "-").
+
+// AddedField2Target(?injectedField, ?beanType) :-
+//   Field_Annotation(?injectedField, "javax.annotation.Resource"),
+//   AnnotationElement("field", ?injectedField, "0", "0.0", _, ?alias, "-"),
+//   Type_Annotation(?beanType, "org.springframework.stereotype.Repository"),
+//   AnnotationElement("type", ?beanType, "0", "0.0", _, ?alias, "-").
+
+// AddedFieldInject(?injectedField) :-
+//     Field_Annotation(?injectedField, "javax.inject.Inject").
+
+// ConcreteBean_Id(?type, ?beanId) :-
+//   (
+//   Type_Annotation(?type, "org.springframework.stereotype.Service");
+//   Type_Annotation(?type, "org.springframework.stereotype.Repository")),
+//   AnnotationElement("type", ?type, "0", "0.0", _, ?beanId, "-").
+
+// ConcreteBean_Id(?type, ?beanId) :-
+//   (
+//   Type_Annotation(?type, "org.springframework.stereotype.Service");
+//   Type_Annotation(?type, "org.springframework.stereotype.Repository")),
+//   !AnnotationElement("type", ?type, "0", "0.0", _, ?beanId, "-"),
+//   TypeConvertToBeanId(?type, ?beanId).
+
+//===================================================================
+// WebApplicationEntryPointClass(?type) :-
+//   ApplicationConcreteType(?type),
+//   Type_Annotation(?type, "javax.persistence.Entity").
+
+// mainAnalysis_MockValueConsMacro(cat(?type, "::MockObject"), ?type),
+// MockObject1(cat(?type, "::MockObject"), ?type) :-
+//   isClassType(?type),
+//   ApplicationConcreteType(?type),
+//   Type_Annotation(?type, "javax.persistence.Entity").
+
+// MockOpenProgramEntryPoint(?class, ?method) :-
+//    ApplicationClass(?class),
+//    Method_DeclaringType(?method, ?class),
+//    Method_Annotation(?method, ?annotation),
+//    match("javax.persistence.*", ?annotation).
+// end-tmp-0822-diff
+
+//------start2 - consider extends class not configuration
+/**
+ * Classes extending TagSupport handled .tld files
+ * TLD (tag library descriptors) are XML files that extend JSPs with custom tags
+ **/
+// MockOpenProgramEntryPoint(?type, ?method) :-
+//   ApplicationClass(?type),
+//   basic.SubtypeOf(?type, "javax.servlet.jsp.tagext.TagSupport"),
+//   Method_DeclaringType(?method, ?type).
+
+// MockOpenProgramEntryPoint(?class, ?method) :-
+//   basic.SubtypeOf(?class, "org.springframework.beans.factory.InitializingBean"),
+//   Method_DeclaringType(?method, ?class),
+//   Method_SimpleName(?method, "afterPropertiesSet").
+
+// AuthenticationFilterBean(?bean) :-
+//   ApplicationConcreteType(?bean),
+//   basic.SubtypeOf(?bean, "javax.servlet.Filter").
+
+// AuthenticationEntryPoint(?type) :-
+//   ApplicationConcreteType(?type),
+//   (basic.SubtypeOf(?type, "org.springframework.security.web.AuthenticationEntryPoint");
+//    basic.SubtypeOf(?type, "org.springframework.security.web.authentication.AuthenticationSuccessHandler");
+//    basic.SubtypeOf(?type, "org.springframework.security.web.access.AccessDeniedHandler")).
+
+// ApplicationListener(?type) :-
+//   ApplicationConcreteType(?type),
+//   basic.SubtypeOf(?type, "org.springframework.context.ApplicationListener").
+
+// .decl ServletClass(?class:Type)
+// ServletClass(?class) :-
+//   AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpServlet").
+// WebApplicationEntryPointClass(?class) :-
+//   ServletClass(?class),
+//   ApplicationConcreteType(?class).
+
+// .decl ActionClass(?class:Type)
+// ActionClass(?class) :-
+//    AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ActionSupport");
+//    AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Action").
+// WebApplicationEntryPointClass(?class) :-
+//   ActionClass(?class),
+//   ApplicationConcreteType(?class).
+// -------end2
+
+ApplicationConcreteType(?type) :-
+  ApplicationClass(?type),
+  !isInterfaceType(?type),
+  !ClassModifier("abstract", ?type).
+
+BridgeMethod(?bridge, ?type) :-
+  basic._BridgeMethod(?bridge, _, ?type).
+
+mainAnalysis.ReachableContext(?ctx, ?method) :-
+  mainAnalysis.isImmutableContext(?ctx),
+  OpenProgramEntryPoint(?method).
+
+mainAnalysis.ApplicationEntryPoint(?meth) :-
+  OpenProgramEntryPoint(?meth),
+  ApplicationMethod(?meth).
+
+OpenProgramEntryPoint(?method) :-
+  MockOpenProgramEntryPoint(_, ?method).
+
+/**
+ *  For every entry point class we make its methods entry points
+ **/
+MockOpenProgramEntryPoint(?type, ?method) :-
+  WebApplicationEntryPointClass(?type),
+  Method_DeclaringType(?method, ?type),
+  !MethodWithBuggySerializableArg(?method).
+
+MethodWithBuggySerializableArg(?method) :-
+  Method_Arity(?method, 1),
+  FormalParam(0, ?method, ?var),
+  Var_Type(?var, "java.io.Serializable").
+
+isSpringApplication(1) :-
+  isClassType(?type),
+  match("org\.springframework\.context.*", ?type).
+
+TypeHasApplicationConcreteSubtypes(?abstractType),
+AllApplicationConcreteImplementations(?class, ?abstractType) :-
+  ApplicationClass(?class),
+  basic.SubtypeOf(?class, ?abstractType),
+  ?abstractType != "java.lang.Object",
+  !ClassModifier("abstract", ?class).
+
+AllApplicationConcreteImplementations(?class, ?class) :-
+  isClassType(?class),
+  !ClassModifier("abstract", ?class).
+
+TypeHasNoApplicationConcreteImplementations(?class) :-
+  isType(?class),
+  !TypeHasApplicationConcreteSubtypes(?class).
+
+AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?class) :-
+  isInterfaceType(?class),
+  !ClassModifier("annotation", ?class),
+  !TypeHasApplicationConcreteSubtypes(?class),
+  !AllApplicationConcreteImplementations(_, ?class).
+
+AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?class) :-
+  isClassType(?class),
+  ClassModifier("abstract", ?class),
+  !TypeHasApplicationConcreteSubtypes(?class),
+  !AllApplicationConcreteImplementations(_, ?class).
+
+NonApplicationConcreteImplementations(?class, ?staticType) :-
+  AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?staticType),
+  isClassType(?class),
+  !ClassModifier("abstract", ?class),
+  basic.SubtypeOf(?class, ?staticType).
+
+NonApplicationConcreteImplementationsOrd(?classOrd, ?staticType) :-
+  NonApplicationConcreteImplementations(_, ?staticType),
+  ?classOrd = min ord(?allConcreteImplementations): NonApplicationConcreteImplementations(?allConcreteImplementations, ?staticType).
+
+NonApplicationConcreteImplementationRepresentative(?class, ?staticType) :-
+  NonApplicationConcreteImplementationsOrd(?classOrd, ?staticType),
+  isClassType(?class),
+  ord(?class) = ?classOrd.
+
+// add-mhn-start
+
+// this scope is too large, disable
+// WebApplicationEntryPointClass(?class) :-
+//     ApplicationConcreteType(?class),
+//     ApplicationClass(?class),
+//     (AddedClassXML(?class);
+//     AddedClassAnnotation(?class)).
+
+MockOpenProgramEntryPoint(?class, ?method) :-
+  ApplicationClass(?class),
+  Method_DeclaringType(?method, ?class),
+  (AddedMethodAnnotation(?method);
+   AddedTargetMethodAnnotation(?method)).
+   
+MockOpenProgramEntryPoint(?class, ?method) :-
+    ApplicationClass(?class),
+    (AddedMethodExtends(?class, ?method);
+    AddedMethodXML(?class, ?method);
+    AddedTargetMethodExtends(?class, ?method)).
+
+/*if the entry point method declare class also in addedclass, class is WebApplicationEntryPointClass */
+WebApplicationEntryPointClass(?class) :-
+  ApplicationConcreteType(?class),
+  ( AddedClassXML(?class);
+    AddedClassAnnotation(?class);
+    AddedTargetClassAnnotation(?class);
+    AddedTargetClassXML(?class)),
+  ((Method_DeclaringType(?method, ?class), 
+  (AddedMethodAnnotation(?method);
+  AddedTargetMethodAnnotation(?method)));
+  AddedMethodExtends(?class, ?method);
+  AddedMethodXML(?class, ?method);
+  AddedTargetMethodExtends(?class, ?method)).
+
+/*the extends class*/
+WebApplicationEntryPointClass(?class) :-
+  ApplicationConcreteType(?class),
+  (AddedClassExtends(?class);
+  AddedTargetClassExtends(?class)),
+  (AddedClassXML(?class);
+  AddedClassAnnotation(?class);
+  AddedTargetClassAnnotation(?class);
+  AddedTargetClassXML(?class)).
+
+/*the xml like web-app-listener cannot parse in the xml fact*/
+WebApplicationEntryPointClass(?class) :-
+  ApplicationConcreteType(?class),
+  AddedClass(?class).
+
+AddedClass(?class) :-
+  AllApplicationConcreteImplementations(?class, "javax.servlet.Filter");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.GenericServlet");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpServlet");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.Servlet");
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.ServletContextListener").
+
+AddedTargetClassAnnotation(?type) :-
+    Type_Annotation(?type, "org.springframework.context.annotation.Configuration");
+    Type_Annotation(?type, "org.springframework.stereotype.Component");
+    Type_Annotation(?type, "org.springframework.stereotype.Controller");
+    Type_Annotation(?type, "org.springframework.web.bind.annotation.RestController");
+    Type_Annotation(?type, "org.springframework.web.bind.annotation.RequestMapping");
+    Type_Annotation(?type, "org.aspectj.lang.annotation.Aspect");
+    Type_Annotation(?type, "org.springframework.web.bind.annotation.ControllerAdvice").
+
+AddedTargetMethodExtends(?class, ?method):-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Action"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "execute").
+AddedTargetMethodExtends(?class, ?method):-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ActionSupport"),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "execute");
+  Method_SimpleName(?method, "input")).
+AddedTargetMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.Preparable"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "prepare").
+AddedTargetMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.context.ApplicationContextAware"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setApplication").
+AddedTargetMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.interceptor.SessionAware"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setSession").
+AddedTargetMethodExtends(?class, ?method):-
+  AllApplicationConcreteImplementations(?class, "org.springframework.web.servlet.config.annotation.WebMvcConfigurer"),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "addInterceptors");
+  Method_SimpleName(?method, "addResourceHandlers")).
+
+AddedTargetClassExtends(?class):-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Action");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ActionSupport");
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.Preparable");
+  AllApplicationConcreteImplementations(?class, "org.springframework.context.ApplicationContextAware");
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.interceptor.SessionAware");
+  AllApplicationConcreteImplementations(?class, "org.springframework.web.servlet.config.annotation.WebMvcConfigurer").
+
+AddedTargetMethodAnnotation(?method) :-
+  Method_Annotation(?method, "org.springframework.context.annotation.Bean");
+  Method_Annotation(?method, "org.springframework.web.bind.annotation.GetMapping");
+  Method_Annotation(?method, "org.springframework.context.event.EventListener").
+
+AddedClassAnnotation(?type):-
+  Type_Annotation(?type, "org.aspectj.lang.annotation.Aspect");
+   Type_Annotation(?type, "org.springframework.context.annotation.Configuration");
+   Type_Annotation(?type, "org.springframework.web.bind.annotation.RequestMapping");
+   Type_Annotation(?type, "org.springframework.web.bind.annotation.RestController");
+   Type_Annotation(?type, "org.springframework.web.bind.annotation.RestControllerAdvice");
+   Type_Annotation(?type, "org.springframework.web.servlet.config.annotation.EnableWebMvc");
+   Type_Annotation(?type, "org.springframework.stereotype.Component");
+   Type_Annotation(?type, "org.springframework.stereotype.Service");
+   Type_Annotation(?type, "org.springframework.stereotype.Controller").
+
+AddedMethodXML(?class, ?method) :-
+    ApplicationConcreteType(?class),
+    XMLNode(?XMLFile, ?nodeId, _, _, "action", "action"),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "method", "method", ?name),
+    Method_DeclaringType(?method, ?class),
+    Method_SimpleName(?method, ?name).
+AddedMethodXML(?type, ?method) :-
+    ApplicationConcreteType(?type),
+    XMLNode(?XMLFile, ?nodeId, _, _, "bean", "bean"),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?type),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "destroy-method", "destroy-method", ?name),
+    Method_DeclaringType(?method, ?type),
+    Method_SimpleName(?method, ?name).
+
+AddedClassXML(?class) :-
+    ApplicationConcreteType(?class),
+    (XMLNode(?XMLFile, ?nodeId, _, _, "action", "action"),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class)).
+AddedClassXML(?class) :-
+    ApplicationConcreteType(?class),
+    (XMLNode(?XMLFile, ?nodeId, _, _, "interceptor", "interceptor"),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class)).
+AddedClassXML(?class) :-
+  ApplicationConcreteType(?class),
+  XMLNode(?XMLFile, ?nodeId, ?parentNodeId, _, "bean", "bean"),
+  XMLNode(?XMLFile, ?parentNodeId, _, _, "struts ", "struts"),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class).
+AddedClassXML(?class) :-
+  ApplicationConcreteType(?class),
+  XMLNode(?XMLFile, ?parentNodeId, _, _, "beans", "beans"),
+  XMLNode(?XMLFile, ?nodeId, ?parentNodeId, _, "bean", "bean"),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class).
+
+AddedMethodAnnotation(?method) :-
+    Method_Annotation(?method, "com.opensymphony.xwork2.inject.Inject");
+    Method_Annotation(?method, "javax.annotation.PostConstruct");
+    Method_Annotation(?method, "net.sourceforge.stripes.action.DefaultHandler");
+    Method_Annotation(?method, "org.apache.struts2.convention.annotation.Action");
+    Method_Annotation(?method, "org.aspectj.lang.annotation.Around");
+    Method_Annotation(?method, "org.springframework.context.event.EventListener");
+    Method_Annotation(?method, "org.springframework.beans.factory.annotation.Value");
+    Method_Annotation(?method, "org.springframework.context.event.EventListener");
+    Method_Annotation(?method, "org.springframework.scheduling.annotation.Async");
+    Method_Annotation(?method, "org.springframework.scheduling.annotation.Scheduled");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.GetMapping");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.RequestMapping");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.InitBinder");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.ModelAttribute");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.PostMapping");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.ResponseBody");
+    Method_Annotation(?method, "org.springframework.web.bind.annotation.ExceptionHandler");
+    Method_Annotation(?method, "org.springframework.context.annotation.Bean").
+
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Action"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "execute").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ActionSupport"),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "execute");
+  Method_SimpleName(?method, "input");
+  Method_SimpleName(?method, "validate")).
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.web.context.ServletContextAware"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setServletContext").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.interceptor.ServletRequestAware"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setServletRequest").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.web.servlet.config.annotation.WebMvcConfigurer"),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "addInterceptors");
+  Method_SimpleName(?method, "addArgumentResolvers");
+  Method_SimpleName(?method, "addFormatters");
+  Method_SimpleName(?method, "addResourceHandlers");
+  Method_SimpleName(?method, "addViewControllers");
+  Method_SimpleName(?method, "configurePathMatch")).
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.interceptor.Interceptor"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "intercept").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.interceptor.AbstractInterceptor"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "intercept").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.Preparable"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "prepare").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.springframework.web.servlet.mvc.AbstractController"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "handleRequestInternal").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.springframework.web.servlet.HandlerInterceptor"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "preHandle").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.springframework.web.filter.OncePerRequestFilter"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "doFilterInternal").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "doFilter").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.interceptor.ParameterNameAware"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "acceptableParameterName").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.UnknownHandler"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "handleUnknownResult").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Validateable"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "validate").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.apache.shiro.session.mgt.SessionValidationScheduler"),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "enableSessionValidation");
+  Method_SimpleName(?method, "isEnabled")).
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.format.Parser"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "parse").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.format.Printer"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "print").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setThreshold").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.springframework.core.io.support.PropertiesLoaderSupport"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "mergeProperties").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "javax.servlet.Filter"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "init");
+  Method_SimpleName(?method, "doFilter")).
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "javax.servlet.GenericServlet"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "init").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpSessionListener"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "sessionDestroyed").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "javax.servlet.ServletContextListener"),
+  Method_DeclaringType(?method, ?class),
+  (Method_SimpleName(?method, "contextInitialized")).
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.interceptor.SessionAware"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setSession").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpServlet"),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "doGet").
+AddedMethodExtends(?class, ?method) :-
+  AddedClassAnnotation(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "main").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.springframework.context.ApplicationListener"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "onApplicationEvent").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "javax.servlet.Servlet"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "destroy").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.interceptor.Interceptor"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "intercept").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ModelDriven"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "getModel").
+AddedMethodExtends(?class, ?method) :-
+  basic.SubtypeOf(?class, "org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "resolvePlaceholder").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.beans.factory.DisposableBean"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "destroy").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.beans.factory.InitializingBean"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "afterPropertiesSet").
+AddedMethodExtends(?class, ?method) :-
+  AllApplicationConcreteImplementations(?class, "org.springframework.context.ApplicationContextAware"),
+  ApplicationConcreteType(?class),
+  Method_DeclaringType(?method, ?class),
+  Method_SimpleName(?method, "setApplicationContext").
+  
+
+AddedClassExtends(?class) :-
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Action");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ActionSupport");
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.interceptor.AbstractInterceptor");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.interceptor.Interceptor");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.interceptor.ParameterNameAware");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.ModelDriven");
+  basic.SubtypeOf(?class, "com.opensymphony.xwork2.Preparable");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.UnknownHandler");
+  AllApplicationConcreteImplementations(?class, "com.opensymphony.xwork2.Validateable");
+  basic.SubtypeOf(?class, "javax.servlet.Filter");
+  basic.SubtypeOf(?class, "javax.servlet.GenericServlet");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpServlet");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.http.HttpSessionListener");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.Servlet");
+  AllApplicationConcreteImplementations(?class, "javax.servlet.ServletContextListener");
+  basic.SubtypeOf(?class, "org.apache.cxf.transport.common.gzip.GZIPOutInterceptor");
+  basic.SubtypeOf(?class, "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter");
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.interceptor.ServletRequestAware");
+  AllApplicationConcreteImplementations(?class, "org.apache.struts2.interceptor.SessionAware");
+  basic.SubtypeOf(?class, "org.springframework.beans.factory.config.PropertyPlaceholderConfigurer");
+  AllApplicationConcreteImplementations(?class, "org.springframework.beans.factory.DisposableBean");
+  AllApplicationConcreteImplementations(?class, "org.springframework.beans.factory.InitializingBean");
+  AllApplicationConcreteImplementations(?class, "org.springframework.context.ApplicationContextAware");
+  basic.SubtypeOf(?class, "org.springframework.context.ApplicationListener");
+  AllApplicationConcreteImplementations(?class, "org.springframework.web.context.ServletContextAware");
+  AllApplicationConcreteImplementations(?class, "org.springframework.web.servlet.config.annotation.WebMvcConfigurer");
+  basic.SubtypeOf(?class, "org.springframework.core.io.support.PropertiesLoaderSupport").
+
+// property:name -> property:ref
+AddedBeanFieldInjection(?class, ?injectedField, ?mockObject) :-
+  XMLNode(?XMLFile, ?parentNodeId, _, _, _, _),
+  XMLNodeAttribute(?XMLFile, ?parentNodeId, _, "id", "id", _),
+  XMLNodeAttribute(?XMLFile, ?parentNodeId, _, "class", "class", ?class),
+  XMLNode(?XMLFile, ?nodeId, ?parentNodeId, _, "property", _),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "name", "name", ?fieldName),
+  XMLNode(?XMLFile, ?injectedBeanNodeId, ?nodeId, _, "ref", _),
+  XMLNodeAttribute(?XMLFile, ?injectedBeanNodeId, _, "bean", "bean", ?injectedBeanId),
+  Field_DeclaringType(?injectedField, ?class),
+  Field_SimpleName(?injectedField, ?fieldName),
+  ConcreteBean_Id(?injectedBeanType, ?injectedBeanId),
+  (MockObject(?mockObject, ?injectedBeanType)).
+
+/** Pattern:
+ * <bean class="?class">
+ *   <property name="?injectedField" ref="?refId"
+ * </bean>
+ **/
+AddedBeanFieldInjection(?class, ?injectedField, ?mockObject) :-
+  XMLNode(?XMLFile, ?parentNodeId, _, _, _, _),
+  XMLNodeAttribute(?XMLFile, ?parentNodeId, _, "id", "id", _),
+  XMLNodeAttribute(?XMLFile, ?parentNodeId, _, "class", "class", ?class),
+  XMLNode(?XMLFile, ?nodeId, ?parentNodeId, _, "property", _),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "name", "name", ?fieldName),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "ref", "ref", ?refId),
+  Field_DeclaringType(?injectedField, ?class),
+  Field_SimpleName(?injectedField, ?fieldName),
+  ConcreteBean_Id(?injectedBeanType, ?refId),
+  MockObject(?mockObject, ?injectedBeanType).
+
+  
+//[xml]struts;package;action;param:name
+AddedBeanFieldInjection(?class, ?injectedField, ?mockObject) :-
+  XMLNode(?XMLFile, ?parentNodeId, _, _, "action", "action"),
+  XMLNodeAttribute(?XMLFile, ?parentNodeId, _, _, _, ?class),
+  XMLNode(?XMLFile, ?nodeId, ?parentNodeId, _, "param", _),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "name", "name", ?fieldName),
+  Field_DeclaringType(?injectedField, ?class),
+  Field_SimpleName(?injectedField, ?fieldName),
+  Field_Type(?injectedField, ?injectedFieldType),
+  ((?type = ?injectedFieldType;
+  basic.SubtypeOf(?type, ?injectedFieldType)),
+  ApplicationConcreteType(?type)),
+  (MockObject(?mockObject, ?type)).
+
+mainAnalysis.InstanceFieldPointsTo(?hctx, ?mockBeanObject, ?injectedField, ?basehctx, ?basevalue) :-
+  mainAnalysis.Value_Type(?basevalue, ?decltype),
+  Field_DeclaringType(?injectedField, ?decltype),
+  AddedField2Target(?injectedField, ?beanType),
+  (MockObject(?mockBeanObject, ?beanType)),
+  mainAnalysis.isImmutableHContext(?basehctx),
+  mainAnalysis.isImmutableHContext(?hctx).
+
+AddedFieldInject(?injectedField) :-
+  Field_Annotation(?injectedField, "org.springframework.beans.factory.annotation.Autowired");
+  Field_Annotation(?injectedField, "javax.annotation.Resource");
+  Field_Annotation(?injectedField, "net.sourceforge.stripes.integration.spring.SpringBean");
+  Field_Annotation(?injectedField, "org.springframework.beans.factory.annotation.Value").
+AddedFieldInject(?injectedField) :-
+    ApplicationClass(?class),
+    XMLNode(?XMLFile, ?nodeId, _, _, "action", "action"),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class),
+    XMLNodeAttribute(?XMLFile, ?nodeId, _, "param", "param", ?fieldName),
+    Field_DeclaringType(?injectedField, ?class),
+    Field_SimpleName(?injectedField, ?fieldName).
+
+mainAnalysis.InstanceFieldPointsTo(?hctx, ?mockBeanObject, ?injectedField, ?basehctx, ?basevalue) :-
+  mainAnalysis.Value_Type(?basevalue, ?decltype),
+  Field_DeclaringType(?injectedField, ?decltype),
+  AddedFieldInject(?injectedField),
+  !AddedField2Target(?injectedField, ?beanType),
+  Field_Type(?injectedField, ?injectedFieldType),
+  (basic.SubtypeOf(?beanType, ?injectedFieldType);
+   ?beanType = ?injectedFieldType),
+  MockObject(?mockBeanObject, ?beanType),
+  mainAnalysis.isImmutableHContext(?basehctx),
+  mainAnalysis.isImmutableHContext(?hctx).
+
+.decl MockObject2(?value:mainAnalysis.Value, ?class:Type)
+
+MockObject2(cat(?type, "::MockObject"), ?type) :-
+    !ClassModifier("abstract", ?type),
+    !AddedField2Target(?injectedField, ?type),
+    AddedFieldInject(?injectedField),
+    Field_Type(?injectedField, ?injectedFieldType),
+    ((ApplicationConcreteType(?injectedFieldType),
+      ?type = ?injectedFieldType);
+      (basic.SubtypeOf(?type, ?injectedFieldType),
+      !ApplicationConcreteType(?injectedFieldType),
+      ApplicationConcreteType(?type))
+    ).
+
+MockObject(?value, ?type):-
+  MockObject2(?value, ?type).
+
+.decl AddedFieldDeclareTarget(?field:Field, ?type:Type)
+AddedFieldDeclareTarget(?field, ?type) :-
+  ApplicationConcreteType(?type),
+  AddedFieldInject(?field),
+  Field_Type(?field, ?injectedFieldType),
+  (basic.SubtypeOf(?type, ?injectedFieldType);
+  ?type = ?injectedFieldType).
+
+// mhn-end
+
+// original-jackEE-content-Start
+// 1. heuristic
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?request),
+  Var_Type(?request, ?requestType),
+  basic.SubtypeOf(?requestType, "javax.servlet.ServletRequest").
+
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?response),
+  Var_Type(?response, ?responseType),
+  basic.SubtypeOf(?responseType, "javax.servlet.ServletResponse").
+
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?httpMethodVar),
+  Var_Type(?httpMethodVar, ?httpMethodVarType),
+  (basic.SubtypeOf(?httpMethodVarType, "org.springframework.http.HttpMethod");
+   basic.SubtypeOf(?httpMethodVarType, "org.apache.commons.httpclient.HttpMethod")).
+
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?webScriptRequest),
+  Var_Type(?webScriptRequest, ?webScriptRequestType),
+  basic.SubtypeOf(?webScriptRequestType, "org.springframework.extensions.webscripts.WebScriptRequest").
+
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?webScriptResponse),
+  Var_Type(?webScriptResponse, ?webScriptResponseType),
+  basic.SubtypeOf(?webScriptResponseType, "org.springframework.extensions.webscripts.WebScriptResponse").
+
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?event),
+  Var_Type(?event, ?eventType),
+  basic.SubtypeOf(?eventType, "javax.servlet.http.HttpSessionEvent").
+
+WebApplicationEntryPointClass(?class) :-
+  Method_DeclaringType(?method, ?class),
+  ApplicationConcreteType(?class),
+  FormalParam(_, ?method, ?event),
+  Var_Type(?event, ?eventType),
+  basic.SubtypeOf(?eventType, "javax.servlet.ServletContextEvent").
+
+WebApplicationEntryPointClass(?class) :-
+  ApplicationConcreteType(?class),
+  match(".*rest.*Resource", ?class).
+
+MockOpenProgramEntryPoint(?class, ?method) :-
+  Method_DeclaringType(?method, ?class),
+  ?class = "com.icegreen.greenmail.util.GreenMail".
+
+// 2. common rules
+WebApplicationEntryPointClass(?type) :-
+  ApplicationConcreteType(?type),
+  (
+   AuthenticationProviderBean(?type);
+   AuthenticationFilterBean(?type);
+   AuthenticationEntryPoint(?type);
+   ApplicationListener(?type);
+   MVCInterceptorBean(?type);
+   Validator(?type);
+   match(".*_jsp", ?type);
+   PossibleWebApplicationEntryPoint(?type)).
+
+// 1. heuristic
+PossibleWebApplicationEntryPoint(?type) :-
+   !isSpringApplication(1),
+   ApplicationClass(?type),
+   (match(".*Controller", ?type);
+    match(".*Bean", ?type);
+    match(".*Listener", ?type);
+    match(".*Servlet", ?type)).
+
+PossibleWebApplicationEntryPoint(?type) :-
+  !isSpringApplication(1),
+  ApplicationClass(?type),
+  Method_DeclaringType(?method, ?type),
+  Method_SimpleName(?method, "init").
+
+MockOpenProgramEntryPoint(?type, ?method) :-
+   MockObject(_, ?type),
+   Method_DeclaringType(?method, ?type),
+   Method_SimpleName(?method, "<init>").
+
+Validator(?validator) :-
+  AnnotationElement("type", _, "0.0", "0.0.0", _, ?validator, _),
+  match(".*Validator", ?validator).
+
+// anantoni: I'm trying to figure out if there are any non-bridge erased methods that are marked as entry points
+// In that case I would have to handle the mock objects that mock a java.lang.Object argument too
+ErasedEntryPointMethod(?method) :-
+  MockOpenProgramEntryPoint(?class, ?method),
+  basic._BridgeMethod(?method, _, ?class),
+  FormalParam(_, ?method, ?param),
+  Var_Type(?param, ?type),
+  ?type = "java.lang.Object".
+// Serializable is another source of overblown mocking
+// We encounter a lot of args of this type due to a bug in Soot
+SerializableEntryPointMethod(?method) :-
+  OpenProgramEntryPoint(?method),
+  FormalParam(_, ?method, ?param),
+  Var_Type(?param, ?type),
+  ?type = "java.io.Serializable".
+  
+isConcreteBean(?class) :-
+  ConcreteBean_Id(?class, _).
+// no use
+isBeanId(?id) :-
+   ConcreteBean_Id(_, ?id),
+   isAbstractBeanId(?id).
+
+ConcreteBean_Id(?class, ?id) :-
+  XMLNodeAttribute(?XMLFile, ?nodeId, "0", "id", "id", ?id),
+  XMLNodeAttribute(?XMLFile, ?nodeId, "1", "class", "class", ?class),
+  isClassType(?class),
+  !match("java\..*", ?class),
+  !match("sun\..*", ?class).
+
+Bean_Parent(?id, ?parentId) :-
+  XMLNodeAttribute(?XMLFile, ?nodeId, "0", "id", "id", ?id),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "parent", "parent", ?parentId).
+
+isAbstractBeanId(?id) :-
+  XMLNodeAttribute(?XMLFile, ?nodeId, "0", "id", "id", ?id),
+  !XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", _).
+
+
+mainAnalysis_MockValueConsMacro(cat(?type, "::MockObject"), ?type),
+MockObject3(cat(?type, "::MockObject"), ?type) :-
+  isClassType(?type),
+  ((ApplicationConcreteType(?type),
+    AddedClassAnnotation(?type);
+    AddedClassXML(?type);
+    AddedMethodExtends(?type, _);
+    AddedTargetClassAnnotation(?type);
+    AddedTargetClassXML(?type);
+    AddedTargetMethodExtends(?type,_));
+   isConcreteBean(?type);
+   AuthenticationProviderBean(?type);
+   AuthenticationFilterBean(?type);
+   AuthenticationEntryPoint(?type);
+   ApplicationListener(?type);
+   MVCInterceptorBean(?type);
+   Validator(?type);
+   PossibleWebApplicationEntryPoint(?type)).
+
+mainAnalysis_MockValueConsMacro(?value, ?class),
+mainAnalysis.VarPointsTo(?hctx, ?value, ?ctx, ?receiver),
+MockObjFromOpenProgramEntryPointReceiver(?value),
+MockObject4(?value, ?class) :-
+  MockOpenProgramEntryPoint(?class, ?method),
+  ThisVar(?method, ?receiver),
+  ?value = cat(?class, "::MockObject"),
+  mainAnalysis.isImmutableContext(?ctx),
+  mainAnalysis.isImmutableHContext(?hctx).
+
+/**
+ * Main policy: If the argument type has concrete subtypes in the application, pass them all as mock objects
+ * If it does not have concrete subtypes but it's a concrete type, pass that the mock object of the itself as argument.
+ **/
+mainAnalysis_MockValueConsMacro(cat(?concreteType, "::MockObject"), ?concreteType),
+mainAnalysis.VarPointsTo(?hctx, cat(?concreteType, "::MockObject"), ?ctx, ?param),
+MockObjFromOpenProgramEntryPointArg(cat(?concreteType, "::MockObject")),
+MockObject5(cat(?concreteType, "::MockObject"), ?concreteType) :-
+  MockOpenProgramEntryPoint(?entryPointDeclaringType, ?method),
+  !BridgeMethod(?method, ?entryPointDeclaringType),
+  FormalParam(_, ?method, ?param),
+  Var_Type(?param, ?type),
+  AllApplicationConcreteImplementations(?concreteType, ?type),
+  mainAnalysis.isImmutableHContext(?hctx),
+  mainAnalysis.isImmutableContext(?ctx).
+
+/**
+ * Fallback: If the argument type has no concrete types in the application and it's an abstract class or interface
+ * pass them all as mock objects create a mock object of a representative subtype of it and pass it as argument.
+ **/
+mainAnalysis_MockValueConsMacro(cat(?concreteType, "::MockObject"), ?concreteType),
+mainAnalysis.VarPointsTo(?hctx, cat(?concreteType, "::MockObject"), ?ctx, ?param),
+MockObjFromOpenProgramEntryPointArg(cat(?concreteType, "::MockObject")),
+MockObject5(cat(?concreteType, "::MockObject"), ?concreteType) :-
+  MockOpenProgramEntryPoint(?entryPointDeclaringType, ?method),
+  !BridgeMethod(?method, ?entryPointDeclaringType),
+  FormalParam(_, ?method, ?param),
+  Var_Type(?param, ?type),
+  AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?type),
+  NonApplicationConcreteImplementationRepresentative(?concreteType, ?type),
+  mainAnalysis.isImmutableHContext(?hctx),
+  mainAnalysis.isImmutableContext(?ctx).
+
+IncompletelyMockedMethod(?method) :-
+  MockOpenProgramEntryPoint(?entryPointDeclaringType, ?method),
+  !BridgeMethod(?method, ?entryPointDeclaringType),
+  FormalParam(_, ?method, ?param),
+  Var_Type(?param, ?type),
+  AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?type).
+
+TypeCannotBeMocked(?type) :-
+  MockOpenProgramEntryPoint(?entryPointDeclaringType, ?method),
+  !BridgeMethod(?method, ?entryPointDeclaringType),
+  FormalParam(_, ?method, ?param),
+  Var_Type(?param, ?type),
+  AbstractOrInterfaceTypeHasNoApplicationConcreteImplementations(?type).
+
+mainAnalysis.VarPointsTo(?hctx, ?value, ?ctx, ?bridgeParam) :-
+  MockOpenProgramEntryPoint(?entryPoint, ?bridge),
+  BridgeMethod(?bridge, ?entryPoint),
+  basic.MethodMightBeCovariantBridge(?bridge, ?method),
+  FormalParam(?index, ?bridge, ?bridgeParam),
+  FormalParam(?index, ?method, ?methodParam),
+  mainAnalysis.VarPointsTo(?hctx, ?value, ?ctx, ?methodParam),
+  MockObjFromOpenProgramEntryPointArg(?value).
+
+/**
+ *  XML driven dependency injection
+ **/
+.decl XMLIFPTDI(?hctx:mainAnalysis.configuration.HContext, ?mo:mainAnalysis.Value, ?fld:Field, ?bhctx:mainAnalysis.configuration.HContext, ?bval:mainAnalysis.Value)
+
+// Property injection from XML specification
+XMLIFPTDI(?hctx, ?mockObject, ?injectedField, ?basehctx, ?basevalue),
+mainAnalysis.InstanceFieldPointsTo(?hctx, ?mockObject, ?injectedField, ?basehctx, ?basevalue) :-
+  mainAnalysis.Value_Type(?basevalue, ?decltype),
+  Field_DeclaringType(?injectedField, ?decltype),
+  (BeanFieldInjection(?decltype, ?injectedField, ?mockObject);
+  AddedBeanFieldInjection(?decltype, ?injectedField, ?mockObject)),
+  mainAnalysis.isImmutableHContext(?basehctx),
+  mainAnalysis.isImmutableHContext(?hctx).
+
+
+
+/**
+ * Special handling for java.util.Collection data structures containing beans
+ * Creates a unique mock object of the xml-specified collection along
+ * and stores the bean mock objects into it.
+ **/
+.decl BeanMap(?id:symbol, ?mapClass:Type, ?mapMockObject:mainAnalysis.Value)
+.decl BeanMapEntry(?id:symbol, ?entryBeanId:symbol, ?entryBeanMockObject:mainAnalysis.Value)
+.decl BeanResource(?id:symbol, ?mapClass:Type, ?mapMockObject:mainAnalysis.Value)
+.decl BeanFieldInjection(?beanClass:ClassType, ?injectedField:Field, ?value:mainAnalysis.Value)
+
+/**
+ * Bean injection to getBean() invocations
+ **/
+ /*
+.decl GetBeanAppInvocation(?ctx: mainAnalysis.configuration.Context, ?invocation: MethodInvocation)
+GetBeanAppInvocation(?ctx, ?invocation) :-
+  mainAnalysis.ReachableContext(?ctx, ?method),
+  ApplicationMethod(?method),
+  Instruction_Method(?invocation, ?method),
+  isMethodInvocation(?invocation),
+  match(".*getBean.*", ?invocation).
+
+mainAnalysis.VarPointsTo(?immHctx, ?beanMockObject, ?ctx, ?local) :-
+  GetBeanAppInvocation(?ctx, ?invocation),
+  ActualParam(0, ?invocation, ?actual),
+  mainAnalysis.VarPointsTo(_, ?heap, ?ctx, ?actual),
+  ConcreteBean_Id(?beanClass, ?heap),
+  MockObject(?beanMockObject, ?beanClass),
+  AssignReturnValue(?invocation, ?local),
+  mainAnalysis.isImmutableHContext(?immHctx).
+ .plan 1:(3,2,4,1,5,6,7)
+*/
+/**
+ * Sanitization and Statistics
+ **/
+.decl ApplicationUnreachableMethod(?method: Method)
+
+ApplicationUnreachableMethod(?method) :-
+  ApplicationMethod(?method),
+  Method_DeclaringType(?method, ?type),
+  ApplicationConcreteType(?type),
+  !mainAnalysis.Reachable(?method).
+
+.decl IncompleteFieldInjection(?type:Type, ?value:mainAnalysis.Value, ?field:Field)
+
+IncompleteFieldInjection(?decltype, ?basevalue, ?injectedField) :-
+  mainAnalysis.Value_Type(?basevalue, ?decltype),
+  Field_DeclaringType(?injectedField, ?decltype),
+  Field_Type(?injectedField, ?fieldType),
+  !isPrimitiveType(?fieldType),
+  ?fieldType != "java.lang.String",
+  isConcreteBean(?decltype),
+  !mainAnalysis.InstanceFieldPointsTo(_, _, ?injectedField, _, ?basevalue).
+
+.decl VPTUnreachableMockObject(?value:mainAnalysis.Value)
+
+VPTUnreachableMockObject(?value) :-
+  MockObject(?value, _),
+  !mainAnalysis.VarPointsTo(_, ?value, _, _).
+
+.decl IFPTUnreachableMockObject(?value:mainAnalysis.Value)
+
+IFPTUnreachableMockObject(?value) :-
+  MockObject(?value, _),
+  !mainAnalysis.InstanceFieldPointsTo(_, ?value, _, _, _).
+
+.decl UnreachableMockObject(?value:mainAnalysis.Value)
+
+UnreachableMockObject(?value) :-
+  MockObject(?value, _),
+  VPTUnreachableMockObject(?value),
+  IFPTUnreachableMockObject(?value).
+/**
+ * String utils
+ **/
+.decl string_upper(s1:symbol, s2:symbol)
+
+string_upper("a", "A"). string_upper("b", "B"). string_upper("c", "C"). string_upper("d", "D").
+string_upper("e", "E"). string_upper("f", "F"). string_upper("g", "G"). string_upper("h", "H").
+string_upper("i", "I"). string_upper("j", "J"). string_upper("k", "K"). string_upper("l", "L").
+string_upper("m", "M"). string_upper("n", "N"). string_upper("o", "O"). string_upper("p", "P").
+string_upper("q", "Q"). string_upper("r", "R"). string_upper("s", "S"). string_upper("t", "T").
+string_upper("u", "U"). string_upper("v", "V"). string_upper("w", "W"). string_upper("x", "X").
+string_upper("y", "Y"). string_upper("z", "Z").
+string_upper("A", "A"). string_upper("B", "B"). string_upper("C", "C"). string_upper("D", "D").
+string_upper("E", "E"). string_upper("F", "F"). string_upper("G", "G"). string_upper("H", "H").
+string_upper("I", "I"). string_upper("J", "J"). string_upper("K", "K"). string_upper("L", "L").
+string_upper("M", "M"). string_upper("N", "N"). string_upper("O", "O"). string_upper("P", "P").
+string_upper("Q", "Q"). string_upper("R", "R"). string_upper("S", "S"). string_upper("T", "T").
+string_upper("U", "U"). string_upper("V", "V"). string_upper("W", "W"). string_upper("X", "X").
+string_upper("Y", "Y"). string_upper("Z", "Z").
+string_upper("0", "0"). string_upper("1", "1"). string_upper("2", "2"). string_upper("3", "3").
+string_upper("4", "4"). string_upper("5", "5"). string_upper("6", "6"). string_upper("7", "7").
+string_upper("8", "8"). string_upper("9", "9").
+
+//original-jackEE-content-End
+
+
+//same-start
+MVCInterceptorBean(?class) :-
+  XMLNode(?XMLFile, ?parentNodeId, _, _, "interceptor", "mvc:interceptor"),
+  XMLNode(?XMLFile, ?nodeId, ?parentNodeId, _, "bean", _),
+  XMLNodeAttribute(?XMLFile, ?nodeId, _, "class", "class", ?class).
+
+ConcreteBean_Id(?type, ?beanId) :-
+  (AddedClassAnnotation(?type);
+  AddedTargetClassAnnotation(?type)),
+  AnnotationElement("type", ?type, "0", "0.0", _, ?beanId, "-").
+
+ConcreteBean_Id(?type, ?beanId) :-
+  (AddedClassAnnotation(?type);
+  AddedTargetClassAnnotation(?type)),
+  !AnnotationElement("type", ?type, "0", "0.0", _, ?beanId, "-"),
+  TypeConvertToBeanId(?type, ?beanId).
+//same-end

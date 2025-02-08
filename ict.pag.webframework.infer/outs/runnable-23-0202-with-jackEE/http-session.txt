@@ -1,0 +1,10 @@
+[entry]
+/struts/package/action/@class	com.opensymphony.xwork2.interceptor.ParameterNameAware.acceptableParameterName(Ljava/lang/String;)Z
+/struts/package/action/@class	/struts/package/action/@method
+/struts/package/action/@class	org.apache.struts2.interceptor.SessionAware.setSession(Ljava/util/Map;)V
+/struts/package/action/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

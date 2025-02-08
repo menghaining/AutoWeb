@@ -1,0 +1,7 @@
+[entry]
+null	org.apache.struts2.convention.annotation.Action
+null	com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

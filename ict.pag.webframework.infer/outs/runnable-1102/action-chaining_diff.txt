@@ -1,0 +1,14 @@
+[Reachable Class Marks] 1
+[Reachable Method Marks] 0
+[Reachable Field Marks] 1
+[Actual Class Marks] 1
+[Actual Method Marks] 2
+[Actual Field Marks] 1
+[Reachable class marks more]
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+[Reachable field marks more]
+[Actual field marks more]

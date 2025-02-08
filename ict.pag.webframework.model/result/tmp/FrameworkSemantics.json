@@ -1,0 +1,1713 @@
+[
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/Filter"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Ljavax/persistence/Entity"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.web.filter.PathMatchingFilter.onPreHandle(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/Object;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/web/filter/PathMatchingFilter"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/boot/autoconfigure/SpringBootApplication"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean.getContext()Lnet/sourceforge/stripes/action/ActionBeanContext;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lnet/sourceforge/stripes/action/ActionBean"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]struts;package;interceptors;interceptor:class",
+			"[inheritance]Lcom/opensymphony/xwork2/interceptor/AbstractInterceptor"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/annotation/Bean"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/http/HttpServlet"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PutMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/beans/factory/annotation/Value"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/scheduling/annotation/Scheduled"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/event/EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.HandlerInterceptor.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/HandlerInterceptor"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean.setContext(Lnet/sourceforge/stripes/action/ActionBeanContext;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lnet/sourceforge/stripes/action/ActionBean"
+		]
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO.doReadSession(Ljava/io/Serializable;)Lorg/apache/shiro/session/Session;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/session/mgt/eis/EnterpriseCacheSessionDAO"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.struts2.interceptor.RequestAware.setRequest(Ljava/util/Map;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/struts2/interceptor/RequestAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.struts2.interceptor.ApplicationAware.setApplication(Ljava/util/Map;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/struts2/interceptor/ApplicationAware"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/jdbc/core/RowMapper"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.ParameterNameAware.acceptableParameterName(Ljava/lang/String;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/interceptor/ParameterNameAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/Filter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configurePathMatch(Lorg/springframework/web/servlet/config/annotation/PathMatchConfigurer;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureAsyncSupport(Lorg/springframework/web/servlet/config/annotation/AsyncSupportConfigurer;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.session.mgt.SimpleSession.removeAttribute(Ljava/lang/Object;)Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/session/mgt/SimpleSession"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver.supportsParameter(Lorg/springframework/core/MethodParameter;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/method/support/HandlerMethodArgumentResolver"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/ModelDriven"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.session.mgt.SessionValidationScheduler.enableSessionValidation()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/session/mgt/SessionValidationScheduler"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers(Ljava/util/List;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/struts2/dispatcher/ng/filter/StrutsPrepareAndExecuteFilter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/context/ApplicationListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.web.filter.AccessControlFilter.onAccessDenied(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/web/filter/AccessControlFilter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/InitBinder"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.struts2.interceptor.SessionAware.setSession(Ljava/util/Map;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/struts2/interceptor/SessionAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/apache/struts2/convention/annotation/Action"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/ActionSupport"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.Preparable.prepare()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/Preparable"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ModelAttribute"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ExceptionHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RestControllerAdvice"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.handler.HandlerInterceptorAdapter.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/handler/HandlerInterceptorAdapter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addFormatters(Lorg/springframework/format/FormatterRegistry;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/scheduling/annotation/Scheduled"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.TagSupport.release()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/jsp/tagext/TagSupport"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/boot/context/properties/ConfigurationProperties"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/context/ServletContextAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ExceptionHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureViewResolvers(Lorg/springframework/web/servlet/config/annotation/ViewResolverRegistry;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.extendMessageConverters(Ljava/util/List;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.cache.interceptor.KeyGenerator.generate(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/cache/interceptor/KeyGenerator"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/filter/OncePerRequestFilter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ExceptionHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/stereotype/Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/http/HttpServlet"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Aspect"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/web/session/mgt/DefaultWebSessionManager"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.context.request.async.CallableProcessingInterceptorAdapter.handleTimeout(Lorg/springframework/web/context/request/NativeWebRequest;Ljava/util/concurrent/Callable;)Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/context/request/async/CallableProcessingInterceptorAdapter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Ljavax/annotation/PostConstruct"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/ActionSupport"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.SimpleTagSupport.doTag()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/jsp/tagext/SimpleTagSupport"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.validation.Validator.validate(Ljava/lang/Object;Lorg/springframework/validation/Errors;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/validation/Validator"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/After"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Aspect"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addViewControllers(Lorg/springframework/web/servlet/config/annotation/ViewControllerRegistry;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/config/annotation/WebMvcConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/interceptor/Interceptor",
+			"[xml]struts;package;interceptors;interceptor:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.supports(Lorg/springframework/core/MethodParameter;Ljava/lang/Class;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ControllerAdvice",
+			"[inheritance]Lorg/springframework/web/servlet/mvc/method/annotation/ResponseBodyAdvice"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.validation.Validator.supports(Ljava/lang/Class;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/validation/Validator"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/context/ApplicationContextAware"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.web.filter.AccessControlFilter.isAccessAllowed(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/Object;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/web/filter/AccessControlFilter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Ljavax/persistence/PreUpdate"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Ljavax/persistence/MappedSuperclass"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.config.BeanFactoryPostProcessor.postProcessBeanFactory(Lorg/springframework/beans/factory/config/ConfigurableListableBeanFactory;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/beans/factory/config/BeanFactoryPostProcessor"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/AfterReturning"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/Object;)Z"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/web/filter/AccessControlFilter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.persistence.AttributeConverter.convertToDatabaseColumn(Ljava/lang/Object;)Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/persistence/AttributeConverter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet.doGetSerializationPolicy(Ljavax/servlet/http/HttpServletRequest;Ljava/lang/String;Ljava/lang/String;)Lcom/google/gwt/user/server/rpc/SerializationPolicy;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/google/gwt/user/server/rpc/RemoteServiceServlet"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.TagSupport.doStartTag()I"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/jsp/tagext/TagSupport"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.core.convert.converter.ConverterFactory.getConverter(Ljava/lang/Class;)Lorg/springframework/core/convert/converter/Converter;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/core/convert/converter/ConverterFactory"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer.getServletConfigClasses()[Ljava/lang/Class;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory.getFieldTypes()Ljava/util/Set;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/format/AnnotationFormatterFactory"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver.resolveArgument(Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/method/support/HandlerMethodArgumentResolver"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;listener;listener-class:[text]",
+			"[inheritance]Ljavax/servlet/ServletContextListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.apache.shiro.realm.AuthorizingRealm.doGetAuthorizationInfo(Lorg/apache/shiro/subject/PrincipalCollection;)Lorg/apache/shiro/authz/AuthorizationInfo;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/apache/shiro/realm/AuthorizingRealm"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer.getRootConfigClasses()[Ljava/lang/Class;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.DisposableBean.destroy()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/beans/factory/DisposableBean"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/http/HttpServlet"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]web-app;listener;listener-class:[text]",
+			"[inheritance]Ljavax/servlet/ServletContextListener"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.determineCurrentLookupKey()Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/http/HttpServletRequestWrapper"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/filter/GenericFilterBean"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lnet/sourceforge/stripes/validation/Validate"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.resolvePlaceholder(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/beans/factory/config/PropertyPlaceholderConfigurer"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lnet/sourceforge/stripes/action/DefaultHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lnet/sourceforge/stripes/action/SessionScope"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/format/Formatter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PutMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/web/servlet/mvc/AbstractController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.persistence.AttributeConverter.convertToEntityAttribute(Ljava/lang/Object;)Ljava/lang/Object;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/persistence/AttributeConverter"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.opensymphony.xwork2.ActionSupport.validate()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lcom/opensymphony/xwork2/ActionSupport"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.InitializingBean.afterPropertiesSet()V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/beans/factory/InitializingBean"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Lorg/springframework/core/convert/converter/Converter"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]schema;types;fieldtype;analyzer:class"
+		]
+	},
+	{
+		"paramType": "javax.servlet.FilterChain",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.bind.support.WebDataBinderFactory",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.context.request.WebRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.method.support.ModelAndViewContainer",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.apache.shiro.session.Session",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.http.server.ServerHttpResponse",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.ui.ModelMap",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.beans.factory.config.ConfigurableListableBeanFactory",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.context.request.NativeWebRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.ui.Model",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.apache.shiro.session.mgt.SessionKey",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.boot.context.event.ApplicationStartedEvent",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.config.annotation.InterceptorRegistry",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.core.MethodParameter",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.apache.shiro.subject.PrincipalCollection",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.data.domain.Sort",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.data.domain.Pageable",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.http.HttpSession",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.mvc.support.RedirectAttributes",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.config.annotation.PathMatchConfigurer",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.format.FormatterRegistry",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.http.MediaType",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.http.HttpEntity",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.http.converter.json.Jackson2ObjectMapperBuilder",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletContextEvent",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletResponse",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.apache.shiro.cache.ehcache.EhCacheManager",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "com.opensymphony.xwork2.ActionInvocation",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.validation.Errors",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.config.annotation.ViewControllerRegistry",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.validation.BindingResult",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.apache.shiro.authc.AuthenticationToken",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.apache.shiro.mgt.SecurityManager",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.http.HttpServletRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.aspectj.lang.JoinPoint",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "net.sourceforge.stripes.action.ActionBeanContext",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.http.HttpServletResponse",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.http.server.ServerHttpRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.boot.web.client.RestTemplateBuilder",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.context.ApplicationContext",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.context.ApplicationEvent",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.servlet.config.annotation.ViewResolverRegistry",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.bind.WebDataBinder",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.FilterConfig",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.web.multipart.MultipartFile",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletContext",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.aspectj.lang.ProceedingJoinPoint",
+		"kind": "Entry-Param"
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]javax.persistence.MappedSuperclass"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.SimpleTagSupport"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.boot.autoconfigure.SpringBootApplication"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.core.convert.converter.Converter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]struts;package;interceptors;interceptor:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]struts;package;action:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.format.Formatter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.Filter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestControllerAdvice"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.web.context.request.async.CallableProcessingInterceptorAdapter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.data.jpa.domain.Specification"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]web-app;filter;filter-class:[text]"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]javax.persistence.Entity"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Repository"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.GenericFilterBean"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]schema;types;fieldtype;analyzer:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]com.opensymphony.xwork2.ActionSupport"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.shiro.session.mgt.SimpleSession"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]web-app;servlet;servlet-class:[text]"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]web-app;listener;listener-class:[text]"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]javax.servlet.annotation.WebServlet"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.ControllerAdvice"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.shiro.realm.AuthorizingRealm"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.jsp.tagext.TagSupport"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.persistence.AttributeConverter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.format.AnnotationFormatterFactory"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.jdbc.core.RowMapper"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]beans;interceptors;interceptor;bean:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.shiro.web.session.mgt.DefaultWebSessionManager"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.shiro.web.filter.PathMatchingFilter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.apache.shiro.web.filter.AccessControlFilter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.http.HttpServletRequestWrapper"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.IsSerializable"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.validation.Validator"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope"
+		]
+	},
+	{
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		],
+		"aliasFromAttribute": "value",
+		"aliasFrom": "Attribute",
+		"kind": "Generate-Class-Alias"
+	},
+	{
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Repository"
+		],
+		"aliasFromAttribute": "value",
+		"aliasFrom": "Attribute",
+		"kind": "Generate-Class-Alias"
+	},
+	{
+		"classMarks": [
+			"[xml]beans;bean:class"
+		],
+		"aliasFromAttribute": "[xml]beans;bean:name",
+		"aliasFrom": "Attribute",
+		"kind": "Generate-Class-Alias"
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.annotation.Resource"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.inject.Inject"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]net.sourceforge.stripes.validation.Validate"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.persistence.OneToMany"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.persistence.JoinTable",
+			"[anno]javax.persistence.ManyToMany"
+		]
+	},
+	{
+		"objectFrom": "Attribute",
+		"kind": "Inject-Field-Points2",
+		"fieldMarks": [
+			"[xml]beans;bean;property:name"
+		],
+		"objectFromAttribute": "[xml]beans;bean;property:ref"
+	},
+	{
+		"objectFrom": "Attribute",
+		"kind": "Inject-Field-Points2",
+		"fieldMarks": [
+			"[anno]org.springframework.beans.factory.annotation.Qualifier"
+		],
+		"objectFromAttribute": "value"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/event/EventListener"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.springframework.context.ApplicationEventPublisher.publishEvent(Lorg/springframework/context/ApplicationEvent;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/ResponseBody",
+			"[anno]Lorg/springframework/web/bind/annotation/GetMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PostMapping",
+			"[anno]Lorg/springframework/web/bind/annotation/ResponseBody"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/GetMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/annotation/Bean"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PutMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PostMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Before"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed([Ljava/lang/Object;)Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/InitBinder"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/annotation/Bean",
+			"[anno]Lorg/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/AfterReturning"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/lang/NonNull"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed([Ljava/lang/Object;)Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;"
+	},
+	{
+		"methodMarks": [
+			"[xml]struts;package;action:method"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "com.opensymphony.xwork2.ActionInvocation.invoke()Ljava/lang/String;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/GetMapping",
+			"[anno]Lorg/apache/shiro/authz/annotation/RequiresPermissions"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/event/EventListener",
+			"[anno]Lorg/springframework/core/annotation/Order"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/aspectj/lang/annotation/Around"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PostMapping",
+			"[anno]Lorg/springframework/web/bind/annotation/ResponseBody",
+			"[anno]Lorg/apache/shiro/authz/annotation/RequiresPermissions"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/GetMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/RequestMapping"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/web/bind/annotation/PostMapping",
+			"[anno]Lorg/springframework/web/bind/annotation/ResponseBody"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/lang/Nullable"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+	},
+	{
+		"methodMarks": [
+			"[anno]Lorg/springframework/context/annotation/Bean"
+		],
+		"kind": "IndirectCall",
+		"callStmt": "org.springframework.boot.SpringApplication.run(Ljava/lang/Object;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;"
+	}
+]

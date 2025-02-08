@@ -1,0 +1,129 @@
+[entry]
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.inject.Inject
+org.springframework.stereotype.Component	org.aspectj.lang.annotation.Around
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']	javax.servlet.http.HttpSessionListener.sessionDestroyed(Ljavax/servlet/http/HttpSessionEvent;)V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.RequestMapping
+org.aspectj.lang.annotation.Aspect	org.aspectj.lang.annotation.Around
+/*[name()='beans']/*[name()='bean']/@class	org.apache.cxf.transport.common.gzip.GZIPOutInterceptor.setThreshold(I)V
+org.springframework.stereotype.Component	org.springframework.format.Parser.parse(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/Object;
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureViewResolvers(Lorg/springframework/web/servlet/config/annotation/ViewResolverRegistry;)V
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addViewControllers(Lorg/springframework/web/servlet/config/annotation/ViewControllerRegistry;)V
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']	javax.servlet.GenericServlet.init()V
+org.springframework.stereotype.Component	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.validate()V
+null	org.springframework.web.bind.annotation.InitBinder
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.InitBinder
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.InitBinder
+org.springframework.stereotype.Component	org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']	javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ResponseBody
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+null	javax.annotation.PostConstruct
+/beans/bean/@class	/beans/bean/@destroy-method
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.interceptor.AbstractInterceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+/struts/package/action/@class	com.opensymphony.xwork2.Preparable.prepare()V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ModelAttribute
+/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+null	org.springframework.beans.factory.annotation.Value
+/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;
+/beans/bean/@class	org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.resolvePlaceholder(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;
+org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean
+/beans:beans/beans:bean/@class	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']	javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+null	net.sourceforge.stripes.action.DefaultHandler
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.GetMapping
+null	org.apache.struts2.convention.annotation.Action
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.PostMapping
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureAsyncSupport(Lorg/springframework/web/servlet/config/annotation/AsyncSupportConfigurer;)V
+/struts/package/action/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+/struts/package/action/@class	org.apache.struts2.interceptor.ServletRequestAware.setServletRequest(Ljavax/servlet/http/HttpServletRequest;)V
+org.springframework.stereotype.Component	javax.annotation.PostConstruct
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.PostMapping
+/beans/bean/@class	org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+org.springframework.stereotype.Component	org.springframework.context.event.EventListener
+org.springframework.stereotype.Controller	org.springframework.scheduling.annotation.Scheduled
+/beans/bean/@class	org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties()Ljava/util/Properties;
+/struts/package/action/@class	/struts/package/action/@method
+org.springframework.web.bind.annotation.RestControllerAdvice	org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.GetMapping
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V
+/struts/package/action/@class	org.apache.struts2.interceptor.SessionAware.setSession(Ljava/util/Map;)V
+/beans:beans/beans:bean/@class	org.springframework.beans.factory.InitializingBean.afterPropertiesSet()V
+null	org.springframework.web.bind.annotation.ExceptionHandler
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.interceptor.Interceptor.intercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V
+/struts/bean/@class	com.opensymphony.xwork2.UnknownHandler.handleUnknownResult(Lcom/opensymphony/xwork2/ActionContext;Ljava/lang/String;Lcom/opensymphony/xwork2/config/entities/ActionConfig;Ljava/lang/String;)Lcom/opensymphony/xwork2/Result;
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addFormatters(Lorg/springframework/format/FormatterRegistry;)V
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']	javax.servlet.Servlet.destroy()V
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']	javax.servlet.GenericServlet.destroy()V
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configurePathMatch(Lorg/springframework/web/servlet/config/annotation/PathMatchConfigurer;)V
+org.springframework.stereotype.Component	org.springframework.format.Printer.print(Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.stereotype.Component	org.springframework.scheduling.annotation.Scheduled
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.PostMapping
+/struts/package/action/@class	com.opensymphony.xwork2.interceptor.ParameterNameAware.acceptableParameterName(Ljava/lang/String;)Z
+/web-app/listener/listener-class	javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V
+/web-app/listener/listener-class	javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V
+/beans:beans/beans:bean/@class	org.springframework.beans.factory.DisposableBean.destroy()V
+/struts/package/action/@class	com.opensymphony.xwork2.Validateable.validate()V
+/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers(Ljava/util/List;)V
+null	/struts/package/action/@method
+null	org.springframework.context.annotation.Bean
+/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+org.springframework.stereotype.Component	org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V
+/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;
+org.springframework.stereotype.Component	org.springframework.scheduling.annotation.Async
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.ModelAttribute
+/beans:beans/beans:bean/@class	org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V
+[inject on field]
+org.springframework.beans.factory.annotation.Value
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+/beans/bean/property/bean/property/@name
+javax.annotation.Resource
+/struts/package/action/param/@name
+org.springframework.beans.factory.annotation.Autowired
+net.sourceforge.stripes.integration.spring.SpringBean
+/beans/bean/property/@name
+[inject on method]
+com.opensymphony.xwork2.inject.Inject
+[field to target]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref	/*[name()='beans']/*[name()='bean']/@id
+[framework call to target]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V	[]
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean	[]
+	org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V	[]
+	org.springframework.boot.context.properties.EnableConfigurationProperties	org.springframework.context.annotation.Bean	[]
+	org.springframework.stereotype.Component	org.springframework.context.event.EventListener	[]
+org.aspectj.lang.ProceedingJoinPoint.proceed()Ljava/lang/Object;
+	org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping	[null, org.aspectj.lang.annotation.Around, null, org.springframework.web.bind.annotation.GetMapping]
+	org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.GetMapping	[null, org.aspectj.lang.annotation.Around, null, org.springframework.web.bind.annotation.GetMapping]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Object;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.stereotype.Component	org.springframework.context.annotation.Bean	[]
+org.springframework.beans.factory.config.ConfigurableListableBeanFactory.getBean(Ljava/lang/Class;)Ljava/lang/Object;
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean	[]
+com.opensymphony.xwork2.ActionInvocation.invoke()Ljava/lang/String;
+	/struts/package/action/@class	/struts/package/action/@method	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.ActionSupport.input()Ljava/lang/String;	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	org.apache.struts2.interceptor.ApplicationAware.setApplication(Ljava/util/Map;)V	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	com.opensymphony.xwork2.Preparable.prepare()V	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+	/struts/package/action/@class	org.apache.struts2.interceptor.SessionAware.setSession(Ljava/util/Map;)V	[/struts/package/interceptors/interceptor/@class, null, /struts/package/@namespace, null]
+[entry single class marks]
+org.springframework.stereotype.Component
+/beans/bean/property/bean/@class
+/beans:beans/beans:bean/@class
+/struts/package/action/@class
+javax.persistence.Table
+/*[name()='beans']/*[name()='bean']/@class
+net.sourceforge.stripes.action.SessionScope
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.stereotype.Controller
+javax.xml.bind.annotation.XmlRootElement

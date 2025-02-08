@@ -1,0 +1,12 @@
+[entry]
+/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']	javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V
+[inject on field]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+[inject on method]
+[field to target]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@ref	/*[name()='beans']/*[name()='bean']/@id
+[framework call to target]
+javax.servlet.FilterChain.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+	/*[name()='beans']/*[name()='bean']/@class	com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;

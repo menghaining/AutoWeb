@@ -1,0 +1,12 @@
+[class][xml]beans;bean:class
+[class][xml]web-app;filter;filter-class:[text]
+[method][xml]struts;package;action:method[class]struts;package;action
+[class][inheritance]com.opensymphony.xwork2.ModelDriven[implement]
+[method][inheritance]com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;[extends]
+[method][inheritance]com.opensymphony.xwork2.ModelDriven.getModel()Ljava/lang/Object;[implement]
+[class][xml]struts;package;action:class
+[field][xml]beans;bean;property:name[class]beans;bean
+[field][xml]beans;bean;property:ref[class]beans;bean
+[class][inheritance]javax.servlet.Filter[implement]
+[class][inheritance]com.opensymphony.xwork2.ActionSupport[extends]
+[method][inheritance]javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V[implement]

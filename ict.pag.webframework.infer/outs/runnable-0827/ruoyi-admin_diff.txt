@@ -1,0 +1,34 @@
+[Reachable Class Marks] 9
+[Reachable Method Marks] 12
+[Reachable Field Marks] 6
+[Actual Class Marks] 4
+[Actual Method Marks] 6
+[Actual Field Marks] 1
+[Reachable class marks more]
+org.springframework.context.annotation.Configuration
+org.springframework.stereotype.Service
+org.springframework.context.annotation.PropertySource
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.beans.factory.annotation.Value
+javax.validation.constraints.Size
+org.springframework.context.annotation.Primary
+javax.validation.constraints.NotBlank
+javax.annotation.PostConstruct
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
+[Actual method marks more]
+main([Ljava/lang/String;)V
+org.apache.shiro.session.mgt.SessionValidationScheduler.enableSessionValidation()V
+org.apache.shiro.session.mgt.SessionValidationScheduler.isEnabled()Z
+[Reachable field marks more]
+org.springframework.beans.factory.annotation.Value
+javax.annotation.Resource
+org.springframework.beans.factory.annotation.Qualifier
+org.springframework.context.annotation.Lazy
+com.fasterxml.jackson.annotation.JsonFormat
+[Actual field marks more]

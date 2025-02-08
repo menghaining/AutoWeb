@@ -1,0 +1,40 @@
+[app classes] 20
+[all classes] 8024
+[all class marks]
+/*[name()='beans']/mvc:interceptors/mvc:interceptor/*[name()='bean']/@class
+/*[name()='beans']/*[name()='bean']/@class
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.stereotype.Repository
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[reachable class marks]
+/*[name()='beans']/mvc:interceptors/mvc:interceptor/*[name()='bean']/@class
+/*[name()='beans']/*[name()='bean']/@class
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.stereotype.Repository
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[all method marks]
+org.springframework.web.bind.annotation.RequestMapping
+[reachable method marks]
+org.springframework.web.bind.annotation.RequestMapping
+[all field marks]
+org.springframework.beans.factory.annotation.Value
+javax.annotation.Resource
+javax.persistence.Id
+org.springframework.beans.factory.annotation.Autowired
+javax.persistence.Column
+org.springframework.beans.factory.annotation.Qualifier
+javax.inject.Inject
+[reachable field marks]
+org.springframework.beans.factory.annotation.Value
+javax.annotation.Resource
+javax.persistence.Id
+org.springframework.beans.factory.annotation.Autowired
+javax.persistence.Column
+org.springframework.beans.factory.annotation.Qualifier
+javax.inject.Inject

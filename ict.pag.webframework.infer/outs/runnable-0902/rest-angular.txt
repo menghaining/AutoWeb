@@ -1,0 +1,7 @@
+[entry]
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.doIntercept(Lcom/opensymphony/xwork2/ActionInvocation;)Ljava/lang/String;
+/struts/package/interceptors/interceptor/@class	com.opensymphony.xwork2.inject.Inject
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

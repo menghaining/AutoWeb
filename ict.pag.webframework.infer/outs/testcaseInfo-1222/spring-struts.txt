@@ -1,0 +1,17 @@
+[app classes] 5
+[all classes] 7427
+[reachable app classes] 5
+[all class marks]
+/struts/package/action/@class
+/*[name()='beans']/*[name()='bean']/@class
+[reachable class marks]
+/struts/package/action/@class
+/*[name()='beans']/*[name()='bean']/@class
+[all method marks]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[reachable method marks]
+/struts/package/action/result/@name
+/struts/package/action/@method
+[all field marks]
+[reachable field marks]

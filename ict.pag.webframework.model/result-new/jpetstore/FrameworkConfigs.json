@@ -1,0 +1,411 @@
+[
+	{
+		"methodMarks": [
+			"[anno]net.sourceforge.stripes.validation.Validate"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]net.sourceforge.stripes.action.DefaultHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]net.sourceforge.stripes.validation.Validate"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean.getContext()Lnet/sourceforge/stripes/action/ActionBeanContext;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]net.sourceforge.stripes.validation.Validate"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean.setContext(Lnet/sourceforge/stripes/action/ActionBeanContext;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]net.sourceforge.stripes.validation.Validate"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]net.sourceforge.stripes.action.DefaultHandler"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.transaction.annotation.Transactional"
+		],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]net.sourceforge.stripes.action.SessionScope",
+			"[inheritance]net.sourceforge.stripes.action.ActionBean[implement]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.transaction.annotation.Transactional"
+		],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[method][anno]net.sourceforge.stripes.validation.Validate"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[method][anno]net.sourceforge.stripes.validation.Validate"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[method][anno]net.sourceforge.stripes.validation.Validate"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[method][anno]net.sourceforge.stripes.validation.Validate"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]net.sourceforge.stripes.integration.spring.SpringBean"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"value": "[name][ClassSimpleName]",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": [
+			"[class][anno]net.sourceforge.stripes.action.SessionScope"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]net.sourceforge.stripes.action.SessionScope"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]net.sourceforge.stripes.action.SessionScope"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]net.sourceforge.stripes.action.SessionScope"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	}
+]

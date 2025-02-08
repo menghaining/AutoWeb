@@ -1,0 +1,17 @@
+[Reachable Class Marks] 4
+[Reachable Method Marks] 1
+[Reachable Field Marks] 1
+[Actual Class Marks] 2
+[Actual Method Marks] 3
+[Actual Field Marks] 0
+[Reachable class marks more]
+org.springframework.stereotype.Service
+org.springframework.context.annotation.Scope
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+com.opensymphony.xwork2.Action.execute()Ljava/lang/String;
+com.opensymphony.xwork2.ActionSupport.execute()Ljava/lang/String;
+[Reachable field marks more]
+org.springframework.beans.factory.annotation.Autowired
+[Actual field marks more]

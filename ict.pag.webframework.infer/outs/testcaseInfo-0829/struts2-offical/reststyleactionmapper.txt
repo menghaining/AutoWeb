@@ -1,0 +1,10 @@
+[app classes] 1
+[all classes] 4436
+[all class marks]
+/struts/package/action/@class
+[reachable class marks]
+[all method marks]
+[reachable method marks]
+[all field marks]
+/struts/package/action/param/@name
+[reachable field marks]

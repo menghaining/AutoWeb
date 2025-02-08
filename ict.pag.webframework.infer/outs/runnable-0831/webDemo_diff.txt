@@ -1,0 +1,18 @@
+[Reachable Class Marks] 8
+[Reachable Method Marks] 1
+[Reachable Field Marks] 7
+[Actual Class Marks] 7
+[Actual Method Marks] 4
+[Actual Field Marks] 5
+[Reachable class marks more]
+org.springframework.stereotype.Component
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V
+org.springframework.web.servlet.HandlerInterceptor.preHandle(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z
+org.springframework.web.servlet.mvc.AbstractController.handleRequestInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)Lorg/springframework/web/servlet/ModelAndView;
+[Reachable field marks more]
+javax.persistence.Column
+javax.persistence.Id
+[Actual field marks more]

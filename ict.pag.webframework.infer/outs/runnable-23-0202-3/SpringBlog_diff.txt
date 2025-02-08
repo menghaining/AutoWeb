@@ -1,0 +1,35 @@
+[Reachable Class Marks] 14
+[Reachable Method Marks] 9
+[Reachable Field Marks] 16
+[Actual Class Marks] 9
+[Actual Method Marks] 7
+[Actual Field Marks] 2
+[Reachable class marks more]
+javax.persistence.Entity
+org.springframework.boot.autoconfigure.SpringBootApplication
+javax.persistence.MappedSuperclass
+org.springframework.stereotype.Repository
+org.springframework.cache.annotation.EnableCaching
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.data.jpa.repository.Query
+org.springframework.cache.annotation.Cacheable
+org.springframework.cache.annotation.CacheEvict
+[Actual method marks more]
+org.springframework.security.core.userdetails.UserDetailsService.loadUserByUsername(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;
+[Reachable field marks more]
+javax.persistence.Lob
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+javax.persistence.OneToMany
+javax.validation.constraints.NotNull
+org.hibernate.annotations.Type
+org.hibernate.annotations.Cache
+javax.persistence.Column
+javax.persistence.GeneratedValue
+org.hibernate.validator.constraints.NotEmpty
+com.fasterxml.jackson.annotation.JsonIgnore
+javax.persistence.Enumerated
+javax.persistence.ManyToMany
+javax.persistence.Id
+[Actual field marks more]

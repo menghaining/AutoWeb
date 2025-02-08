@@ -1,0 +1,15 @@
+[app classes] 13
+[all classes] 10253
+[reachable app classes] 0
+[all class marks]
+/struts/package/action/@class
+/*[name()='beans']/*[name()='bean']/@class
+[reachable class marks]
+[all method marks]
+/struts/package/action/result/@name
+[reachable method marks]
+[all field marks]
+/*[name()='beans']/*[name()='bean']/*[name()='property']/*[name()='ref']/@bean
+/*[name()='beans']/*[name()='bean']/*[name()='property']/@name
+/struts/package/action/result/param/@name
+[reachable field marks]

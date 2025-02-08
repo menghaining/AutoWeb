@@ -1,0 +1,72 @@
+[app classes] 24
+[all classes] 29092
+[all class marks]
+javax.xml.bind.annotation.XmlRootElement
+org.springframework.context.annotation.Configuration
+org.springframework.cache.annotation.EnableCaching
+org.springframework.stereotype.Component
+javax.persistence.MappedSuperclass
+org.springframework.stereotype.Controller
+javax.persistence.Table
+javax.persistence.Entity
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.web.bind.annotation.RequestMapping
+[reachable class marks]
+javax.xml.bind.annotation.XmlRootElement
+org.springframework.context.annotation.Configuration
+org.springframework.cache.annotation.EnableCaching
+org.springframework.stereotype.Component
+javax.persistence.MappedSuperclass
+org.springframework.stereotype.Controller
+javax.persistence.Table
+javax.persistence.Entity
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.web.bind.annotation.RequestMapping
+[all method marks]
+org.springframework.cache.annotation.Cacheable
+org.springframework.web.bind.annotation.ResponseBody
+javax.xml.bind.annotation.XmlElement
+org.springframework.beans.factory.annotation.Autowired
+org.springframework.web.bind.annotation.InitBinder
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.transaction.annotation.Transactional
+org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.data.jpa.repository.Query
+[reachable method marks]
+org.springframework.cache.annotation.Cacheable
+javax.xml.bind.annotation.XmlElement
+org.springframework.web.bind.annotation.InitBinder
+org.springframework.context.annotation.Bean
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.transaction.annotation.Transactional
+org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.data.jpa.repository.Query
+[all field marks]
+javax.validation.constraints.NotEmpty
+javax.persistence.Id
+javax.persistence.GeneratedValue
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+javax.persistence.ManyToMany
+javax.validation.constraints.Digits
+javax.persistence.OneToMany
+javax.persistence.Transient
+javax.persistence.Column
+javax.persistence.JoinColumn
+org.springframework.format.annotation.DateTimeFormat
+[reachable field marks]
+javax.validation.constraints.NotEmpty
+javax.persistence.Id
+javax.persistence.GeneratedValue
+javax.persistence.JoinTable
+javax.persistence.ManyToOne
+javax.persistence.ManyToMany
+javax.validation.constraints.Digits
+javax.persistence.OneToMany
+javax.persistence.Transient
+javax.persistence.Column
+javax.persistence.JoinColumn
+org.springframework.format.annotation.DateTimeFormat

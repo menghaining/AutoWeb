@@ -1,0 +1,1865 @@
+[
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.core.convert.converter.ConverterFactory.getConverter(Ljava/lang/Class;)Lorg/springframework/core/convert/converter/Converter;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component",
+			"[inheritance]org.springframework.core.convert.converter.ConverterFactory[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PutMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean",
+			"[anno]org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]springfox.documentation.swagger2.annotations.EnableSwagger2",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers(Ljava/util/List;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.PropertySource",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver.supportsParameter(Lorg/springframework/core/MethodParameter;)Z[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Service"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.event.EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.supports(Lorg/springframework/core/MethodParameter;Ljava/lang/Class;)Z[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice[implement]",
+			"[anno]org.springframework.web.bind.annotation.ControllerAdvice"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Around"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.persistence.AttributeConverter.convertToEntityAttribute(Ljava/lang/Object;)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.persistence.AttributeConverter[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PutMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull",
+			"[inheritance]org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.beforeBodyWrite(Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/http/MediaType;Ljava/lang/Class;Lorg/springframework/http/server/ServerHttpRequest;Lorg/springframework/http/server/ServerHttpResponse;)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice[implement]",
+			"[anno]org.springframework.web.bind.annotation.ControllerAdvice"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.core.annotation.Order",
+			"[inheritance]org.springframework.context.ApplicationListener[implement]",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addFormatters(Lorg/springframework/format/FormatterRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.PropertySource",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]springfox.documentation.swagger2.annotations.EnableSwagger2",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.PropertySource",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.PropertySource",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]javax.persistence.PreUpdate"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]javax.persistence.MappedSuperclass"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]main([Ljava/lang/String;)V[MAIN]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.data.jpa.repository.config.EnableJpaAuditing",
+			"[anno]org.springframework.scheduling.annotation.EnableAsync",
+			"[anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[anno]org.springframework.data.jpa.repository.config.EnableJpaRepositories",
+			"[anno]org.springframework.boot.autoconfigure.SpringBootApplication"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Async",
+			"[anno]org.springframework.context.event.EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.persistence.AttributeConverter.convertToDatabaseColumn(Ljava/lang/Object;)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]javax.persistence.AttributeConverter[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.core.annotation.Order",
+			"[anno]org.springframework.context.event.EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver.resolveArgument(Lorg/springframework/core/MethodParameter;Lorg/springframework/web/method/support/ModelAndViewContainer;Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/bind/support/WebDataBinderFactory;)Ljava/lang/Object;[implement]",
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.shouldNotFilter(Ljavax/servlet/http/HttpServletRequest;)Z[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Async",
+			"[anno]org.springframework.context.event.EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.core.convert.converter.Converter.convert(Ljava/lang/Object;)Ljava/lang/Object;[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.core.convert.converter.Converter[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]springfox.documentation.swagger2.annotations.EnableSwagger2",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.aspectj.lang.annotation.Around"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.aspectj.lang.annotation.Aspect",
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter.shouldNotFilter(Ljavax/servlet/http/HttpServletRequest;)Z[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]freemarker.template.TemplateDirectiveModel.execute(Lfreemarker/core/Environment;Ljava/util/Map;[Lfreemarker/template/TemplateModel;Lfreemarker/template/TemplateDirectiveBody;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component",
+			"[inheritance]freemarker.template.TemplateDirectiveModel[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]com.fasterxml.jackson.databind.JsonSerializer.serialize(Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/SerializerProvider;)V[extends]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]com.fasterxml.jackson.databind.JsonSerializer[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.extendMessageConverters(Ljava/util/List;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.PropertySource",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]freemarker.template.TemplateDirectiveModel.execute(Lfreemarker/core/Environment;Ljava/util/Map;[Lfreemarker/template/TemplateModel;Lfreemarker/template/TemplateDirectiveBody;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component",
+			"[inheritance]freemarker.template.TemplateDirectiveModel[implement]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PostMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Controller"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.context.annotation.Bean"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]springfox.documentation.swagger2.annotations.EnableSwagger2",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.PutMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureViewResolvers(Lorg/springframework/web/servlet/config/annotation/ViewResolverRegistry;)V[implement]"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.context.annotation.PropertySource",
+			"[inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[anno]org.springframework.context.annotation.ComponentScan",
+			"[anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[anno]org.springframework.context.annotation.Configuration"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Async",
+			"[anno]org.springframework.context.event.EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.scheduling.annotation.Async",
+			"[anno]org.springframework.context.event.EventListener"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.stereotype.Component"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.transaction.annotation.Transactional"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]io.swagger.annotations.ApiOperation",
+			"[anno]org.springframework.web.bind.annotation.GetMapping"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[anno]org.springframework.web.bind.annotation.RestController"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]javax.persistence.PrePersist"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationEvent[extends]"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationEvent[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]com.fasterxml.jackson.annotation.JsonProperty"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[inheritance]org.springframework.context.ApplicationEvent[extends]"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]com.fasterxml.jackson.annotation.JsonProperty"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.Nullable"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]com.fasterxml.jackson.annotation.JsonProperty"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [],
+		"kind": "No-Entry",
+		"classMarks": [
+			"[anno]org.springframework.boot.context.properties.ConfigurationProperties"
+		]
+	},
+	{
+		"methodMarks": [
+			"[anno]org.springframework.lang.NonNull"
+		],
+		"kind": "No-Entry",
+		"classMarks": []
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Value"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Temporal",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]com.fasterxml.jackson.annotation.JsonProperty"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]com.fasterxml.jackson.annotation.JsonProperty"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]com.fasterxml.jackson.annotation.JsonProperty"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]org.hibernate.validator.constraints.URL"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Temporal",
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"kind": "No-Inject-Field",
+		"fieldMarks": [
+			"[field][anno]javax.persistence.Column"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		],
+		"fieldMarks": [
+			"[field][anno]org.springframework.beans.factory.annotation.Autowired"
+		],
+		"isDeclare": true
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"valueDirect": [],
+		"kind": "No-Field-Points-To",
+		"valueAlias": [
+			"[name][FieldSimpleName]"
+		]
+	},
+	{
+		"value": "[name][ClassSimpleName]",
+		"kind": "Class-Alias"
+	},
+	{
+		"value": [
+			"[class][inheritance]freemarker.template.TemplateDirectiveModel[implement]",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.MappedSuperclass"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]javax.persistence.AttributeConverter[implement]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.aspectj.lang.annotation.Aspect",
+			"[class][anno]org.springframework.context.annotation.Configuration"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.filter.GenericFilterBean[extends]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]springfox.documentation.swagger2.annotations.EnableSwagger2",
+			"[class][anno]org.springframework.context.annotation.Configuration"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.servlet.config.annotation.WebMvcConfigurer[implement]",
+			"[class][anno]org.springframework.context.annotation.ComponentScan",
+			"[class][anno]org.springframework.context.annotation.Configuration",
+			"[class][anno]org.springframework.web.servlet.config.annotation.EnableWebMvc",
+			"[class][anno]org.springframework.context.annotation.PropertySource"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice[implement]",
+			"[class][anno]org.springframework.web.bind.annotation.ControllerAdvice"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.boot.autoconfigure.SpringBootApplication",
+			"[class][anno]org.springframework.data.jpa.repository.config.EnableJpaAuditing",
+			"[class][anno]org.springframework.scheduling.annotation.EnableAsync",
+			"[class][inheritance]org.springframework.boot.web.servlet.support.SpringBootServletInitializer[extends]",
+			"[class][anno]org.springframework.scheduling.annotation.EnableScheduling",
+			"[class][anno]org.springframework.data.jpa.repository.config.EnableJpaRepositories"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]javax.persistence.DiscriminatorColumn"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.method.support.HandlerMethodArgumentResolver[implement]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.core.convert.converter.ConverterFactory[implement]",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.boot.context.properties.ConfigurationProperties"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.context.ApplicationListener[implement]",
+			"[class][anno]org.springframework.context.annotation.Configuration",
+			"[class][anno]org.springframework.core.annotation.Order"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.web.filter.OncePerRequestFilter[extends]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]freemarker.template.TemplateDirectiveModel[implement]",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.aspectj.lang.annotation.Aspect",
+			"[class][anno]org.springframework.stereotype.Component"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.boot.context.properties.EnableConfigurationProperties",
+			"[class][anno]org.springframework.context.annotation.Configuration"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.web.bind.annotation.RestController"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity",
+			"[class][anno]javax.persistence.DiscriminatorColumn"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]com.fasterxml.jackson.databind.JsonSerializer[extends]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][inheritance]org.springframework.core.convert.converter.Converter[implement]"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]javax.persistence.Table",
+			"[class][anno]javax.persistence.Entity"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.stereotype.Service"
+		],
+		"kind": "Class-Managed"
+	},
+	{
+		"value": [
+			"[class][anno]org.springframework.web.bind.annotation.RequestMapping",
+			"[class][anno]org.springframework.stereotype.Controller"
+		],
+		"kind": "Class-Managed"
+	}
+]

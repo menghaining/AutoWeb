@@ -1,0 +1,21 @@
+[app classes] 24
+[all classes] 6847
+[reachable app classes] 24
+[all class marks]
+net.sourceforge.stripes.action.SessionScope
+org.springframework.stereotype.Service
+[reachable class marks]
+net.sourceforge.stripes.action.SessionScope
+org.springframework.stereotype.Service
+[all method marks]
+net.sourceforge.stripes.action.DefaultHandler
+org.springframework.transaction.annotation.Transactional
+net.sourceforge.stripes.validation.Validate
+[reachable method marks]
+net.sourceforge.stripes.action.DefaultHandler
+org.springframework.transaction.annotation.Transactional
+net.sourceforge.stripes.validation.Validate
+[all field marks]
+net.sourceforge.stripes.integration.spring.SpringBean
+[reachable field marks]
+net.sourceforge.stripes.integration.spring.SpringBean

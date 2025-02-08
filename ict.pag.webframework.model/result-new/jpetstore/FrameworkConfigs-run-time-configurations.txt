@@ -1,0 +1,9 @@
+[method][anno]net.sourceforge.stripes.action.DefaultHandler
+[class][anno]net.sourceforge.stripes.action.SessionScope
+[class][anno]org.springframework.stereotype.Service
+[method][anno]net.sourceforge.stripes.validation.Validate
+[method][anno]org.springframework.transaction.annotation.Transactional
+[class][inheritance]net.sourceforge.stripes.action.ActionBean[implement]
+[method][inheritance]net.sourceforge.stripes.action.ActionBean.setContext(Lnet/sourceforge/stripes/action/ActionBeanContext;)V[implement]
+[field][anno]net.sourceforge.stripes.integration.spring.SpringBean
+[method][inheritance]net.sourceforge.stripes.action.ActionBean.getContext()Lnet/sourceforge/stripes/action/ActionBeanContext;[implement]

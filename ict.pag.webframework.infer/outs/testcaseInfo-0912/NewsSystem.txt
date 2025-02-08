@@ -1,0 +1,26 @@
+[app classes] 66
+[all classes] 20065
+[all class marks]
+/*[name()='beans']/*[name()='bean']/@class
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.context.annotation.Scope
+org.springframework.stereotype.Repository
+/struts/package/interceptors/interceptor/@class
+org.springframework.stereotype.Service
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[reachable class marks]
+/*[name()='beans']/*[name()='bean']/@class
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.context.annotation.Scope
+org.springframework.stereotype.Repository
+/struts/package/interceptors/interceptor/@class
+org.springframework.stereotype.Service
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[all method marks]
+[reachable method marks]
+[all field marks]
+org.springframework.beans.factory.annotation.Autowired
+[reachable field marks]
+org.springframework.beans.factory.annotation.Autowired

@@ -1,0 +1,17 @@
+[entry]
+org.springframework.stereotype.Component	org.springframework.format.Printer.print(Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.stereotype.Component	org.springframework.format.Parser.parse(Ljava/lang/String;Ljava/util/Locale;)Ljava/lang/Object;
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.PostMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.RequestMapping	org.springframework.web.bind.annotation.InitBinder
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.PostMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.InitBinder
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.context.annotation.Configuration	org.springframework.context.annotation.Bean	[]

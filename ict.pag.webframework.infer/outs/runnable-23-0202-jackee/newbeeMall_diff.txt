@@ -1,0 +1,20 @@
+[Reachable Class Marks] 7
+[Reachable Method Marks] 4
+[Reachable Field Marks] 3
+[Actual Class Marks] 3
+[Actual Method Marks] 5
+[Actual Field Marks] 2
+[Reachable class marks more]
+org.mybatis.spring.annotation.MapperScan
+org.springframework.stereotype.Component
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+[Actual class marks more]
+[Reachable method marks more]
+org.springframework.web.bind.annotation.ResponseBody
+[Actual method marks more]
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V
+[Reachable field marks more]
+com.fasterxml.jackson.annotation.JsonFormat
+[Actual field marks more]

@@ -1,0 +1,42 @@
+[app classes] 89
+[all classes] 13463
+[reachable app classes] 44
+[all class marks]
+org.springframework.web.bind.annotation.RestControllerAdvice
+org.mybatis.spring.annotation.MapperScan
+org.springframework.context.annotation.Configuration
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+[reachable class marks]
+org.mybatis.spring.annotation.MapperScan
+org.springframework.context.annotation.Configuration
+org.springframework.stereotype.Component
+org.springframework.stereotype.Controller
+org.springframework.boot.autoconfigure.SpringBootApplication
+org.springframework.stereotype.Service
+org.springframework.web.bind.annotation.RequestMapping
+[all method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.web.bind.annotation.DeleteMapping
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.PutMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.transaction.annotation.Transactional
+org.springframework.web.bind.annotation.RequestMapping
+[reachable method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.RequestMapping
+[all field marks]
+javax.annotation.Resource
+org.springframework.beans.factory.annotation.Autowired
+com.fasterxml.jackson.annotation.JsonFormat
+[reachable field marks]
+javax.annotation.Resource
+org.springframework.beans.factory.annotation.Autowired
+com.fasterxml.jackson.annotation.JsonFormat

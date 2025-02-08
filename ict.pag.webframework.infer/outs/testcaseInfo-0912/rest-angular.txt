@@ -1,0 +1,15 @@
+[app classes] 7
+[all classes] 7112
+[all class marks]
+org.apache.struts2.convention.annotation.ParentPackage
+org.apache.struts2.convention.annotation.Namespace
+/struts/package/interceptors/interceptor/@class
+[reachable class marks]
+[all method marks]
+com.opensymphony.xwork2.inject.Inject
+[reachable method marks]
+[all field marks]
+org.hibernate.validator.constraints.NotBlank
+javax.validation.constraints.Min
+javax.validation.constraints.Max
+[reachable field marks]

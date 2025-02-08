@@ -1,0 +1,14 @@
+[app classes] 5
+[all classes] 4440
+[all class marks]
+/struts/package/action/@class
+/struts/package/action/exception-mapping/@exception
+/struts/package/global-exception-mappings/exception-mapping/@exception
+[reachable class marks]
+/struts/package/action/@class
+[all method marks]
+/struts/package/action/@method
+[reachable method marks]
+/struts/package/action/@method
+[all field marks]
+[reachable field marks]

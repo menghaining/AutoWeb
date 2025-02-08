@@ -1,0 +1,6 @@
+[entry]
+null	/struts/package/action/@method
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

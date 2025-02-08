@@ -1,0 +1,25 @@
+[app classes] 187
+[all classes] 8354
+[reachable app classes] 125
+[all class marks]
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']
+org.springframework.stereotype.Controller
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']
+org.springframework.web.bind.annotation.RequestMapping
+[reachable class marks]
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']
+org.springframework.stereotype.Controller
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']
+org.springframework.web.bind.annotation.RequestMapping
+[all method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.web.bind.annotation.ResponseStatus
+org.springframework.web.bind.annotation.RequestMapping
+[reachable method marks]
+org.springframework.web.bind.annotation.ResponseBody
+org.springframework.web.bind.annotation.RequestMapping
+[all field marks]
+org.springframework.beans.factory.annotation.Autowired
+[reachable field marks]
+org.springframework.beans.factory.annotation.Autowired

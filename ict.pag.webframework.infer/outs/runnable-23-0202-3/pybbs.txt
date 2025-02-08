@@ -1,0 +1,8 @@
+[entry]
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+null	org.springframework.web.bind.annotation.PostMapping
+[inject on field]
+javax.annotation.Resource
+[inject on method]
+[field to target]
+[framework call to target]

@@ -1,0 +1,56 @@
+[Reachable Class Marks] 32
+[Reachable Method Marks] 17
+[Reachable Field Marks] 11
+[Actual Class Marks] 13
+[Actual Method Marks] 9
+[Actual Field Marks] 2
+[Reachable class marks more]
+javax.persistence.MappedSuperclass
+java.lang.annotation.Inherited
+org.springframework.context.annotation.PropertySource
+org.springframework.boot.context.properties.ConfigurationProperties
+org.springframework.data.repository.NoRepositoryBean
+java.lang.annotation.Retention
+javax.persistence.Table
+org.springframework.stereotype.Service
+springfox.documentation.swagger2.annotations.EnableSwagger2
+java.lang.annotation.Documented
+javax.persistence.Entity
+org.springframework.core.annotation.Order
+java.lang.annotation.Target
+org.springframework.web.servlet.config.annotation.EnableWebMvc
+org.springframework.context.annotation.ComponentScan
+javax.persistence.DiscriminatorValue
+org.springframework.web.bind.annotation.RestControllerAdvice
+javax.persistence.DiscriminatorColumn
+org.springframework.transaction.annotation.Transactional
+[Actual class marks more]
+[Reachable method marks more]
+javax.persistence.PrePersist
+org.springframework.data.jpa.repository.Modifying
+org.springframework.web.bind.annotation.PostMapping
+org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
+org.springframework.data.jpa.repository.Query
+org.springframework.core.annotation.Order
+org.springframework.core.annotation.AliasFor
+io.swagger.annotations.ApiOperation
+org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.lang.NonNull
+org.springframework.lang.Nullable
+org.springframework.transaction.annotation.Transactional
+[Actual method marks more]
+org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.beforeBodyWrite(Ljava/lang/Object;Lorg/springframework/core/MethodParameter;Lorg/springframework/http/MediaType;Ljava/lang/Class;Lorg/springframework/http/server/ServerHttpRequest;Lorg/springframework/http/server/ServerHttpResponse;)Ljava/lang/Object;
+main([Ljava/lang/String;)V
+org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.supports(Lorg/springframework/core/MethodParameter;Ljava/lang/Class;)Z
+freemarker.template.TemplateDirectiveModel.execute(Lfreemarker/core/Environment;Ljava/util/Map;[Lfreemarker/template/TemplateModel;Lfreemarker/template/TemplateDirectiveBody;)V
+[Reachable field marks more]
+javax.persistence.Column
+javax.validation.constraints.Size
+org.hibernate.validator.constraints.URL
+javax.validation.constraints.NotBlank
+javax.persistence.GeneratedValue
+javax.persistence.Temporal
+javax.validation.constraints.Email
+javax.validation.constraints.Min
+javax.persistence.Id
+[Actual field marks more]

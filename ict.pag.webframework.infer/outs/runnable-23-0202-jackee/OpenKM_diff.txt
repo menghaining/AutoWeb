@@ -1,0 +1,48 @@
+[Reachable Class Marks] 14
+[Reachable Method Marks] 0
+[Reachable Field Marks] 16
+[Actual Class Marks] 5
+[Actual Method Marks] 11
+[Actual Field Marks] 0
+[Reachable class marks more]
+javax.persistence.Entity
+org.hibernate.search.annotations.Indexed
+javax.xml.bind.annotation.XmlRootElement
+org.hibernate.annotations.Cache
+javax.xml.bind.annotation.XmlSeeAlso
+javax.persistence.Table
+javax.persistence.Inheritance
+org.hibernate.annotations.Table
+org.hibernate.search.annotations.FullTextFilterDef
+[Actual class marks more]
+[Reachable method marks more]
+[Actual method marks more]
+javax.servlet.GenericServlet.destroy()V
+org.springframework.beans.factory.InitializingBean.afterPropertiesSet()V
+javax.servlet.GenericServlet.init()V
+org.springframework.web.context.ServletContextAware.setServletContext(Ljavax/servlet/ServletContext;)V
+javax.servlet.Servlet.destroy()V
+org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V
+javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V
+org.springframework.beans.factory.DisposableBean.destroy()V
+javax.servlet.http.HttpServlet.doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+javax.servlet.http.HttpSessionListener.sessionDestroyed(Ljavax/servlet/http/HttpSessionEvent;)V
+org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V
+[Reachable field marks more]
+javax.persistence.Lob
+javax.persistence.Embedded
+javax.persistence.OneToMany
+org.hibernate.search.annotations.CalendarBridge
+org.hibernate.search.annotations.Field
+org.hibernate.search.annotations.DocumentId
+org.hibernate.annotations.Type
+javax.persistence.Column
+javax.persistence.MapKeyColumn
+javax.persistence.GeneratedValue
+org.hibernate.annotations.Index
+javax.persistence.Transient
+javax.persistence.ElementCollection
+javax.persistence.CollectionTable
+org.hibernate.search.annotations.FieldBridge
+javax.persistence.Id
+[Actual field marks more]

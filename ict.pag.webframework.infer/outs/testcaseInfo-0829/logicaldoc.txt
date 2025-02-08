@@ -1,0 +1,35 @@
+[app classes] 2013
+[all classes] 51494
+[all class marks]
+/beans/bean/property/bean/@class
+com.google.gwt.user.client.rpc.RemoteServiceRelativePath
+/*[name()='beans']/*[name()='bean']/@class
+/module/entry-point/@class
+javax.jws.WebService
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']
+/beans/bean/@class
+/schema/types/fieldtype/analyzer/@class
+/config/updateRequestProcessorChain/processor/@class
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']
+/*[name()='beans']/jaxws:endpoint/@implementor
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[reachable class marks]
+/beans/bean/property/bean/@class
+/*[name()='beans']/*[name()='bean']/@class
+/*[name()='web-app']/*[name()='servlet']/*[name()='servlet-class']
+/beans/bean/@class
+/*[name()='web-app']/*[name()='listener']/*[name()='listener-class']
+/*[name()='web-app']/*[name()='filter']/*[name()='filter-class']
+[all method marks]
+java.lang.Deprecated
+/beans/bean/@destroy-method
+javax.jws.WebResult
+[reachable method marks]
+/beans/bean/@destroy-method
+[all field marks]
+javax.annotation.Resource
+/beans/bean/property/bean/property/@name
+/beans/bean/property/@name
+[reachable field marks]
+/beans/bean/property/bean/property/@name
+/beans/bean/property/@name

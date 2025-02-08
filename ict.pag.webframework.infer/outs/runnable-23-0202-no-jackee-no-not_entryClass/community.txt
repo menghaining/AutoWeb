@@ -1,0 +1,13 @@
+[entry]
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.RequestMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.stereotype.Component	org.springframework.scheduling.annotation.Scheduled
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ResponseBody
+[inject on field]
+org.springframework.beans.factory.annotation.Value
+org.springframework.beans.factory.annotation.Autowired
+[inject on method]
+[field to target]
+[framework call to target]
+org.springframework.boot.SpringApplication.run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;
+	org.springframework.context.annotation.Configuration	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V	[]

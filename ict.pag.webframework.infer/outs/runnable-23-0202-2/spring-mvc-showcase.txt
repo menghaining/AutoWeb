@@ -1,0 +1,25 @@
+[entry]
+org.springframework.stereotype.Controller	org.springframework.scheduling.annotation.Scheduled
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureViewResolvers(Lorg/springframework/web/servlet/config/annotation/ViewResolverRegistry;)V
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.PostMapping
+org.springframework.web.bind.annotation.RestControllerAdvice	org.springframework.web.bind.annotation.ExceptionHandler
+null	org.springframework.context.annotation.Bean
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configurePathMatch(Lorg/springframework/web/servlet/config/annotation/PathMatchConfigurer;)V
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers(Ljava/util/List;)V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.PostMapping
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.ExceptionHandler
+null	org.springframework.web.bind.annotation.ExceptionHandler
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addViewControllers(Lorg/springframework/web/servlet/config/annotation/ViewControllerRegistry;)V
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addFormatters(Lorg/springframework/format/FormatterRegistry;)V
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.ModelAttribute
+org.springframework.web.bind.annotation.RestController	org.springframework.web.bind.annotation.GetMapping
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureAsyncSupport(Lorg/springframework/web/servlet/config/annotation/AsyncSupportConfigurer;)V
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.context.annotation.Bean
+org.springframework.web.servlet.config.annotation.EnableWebMvc	org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V
+org.springframework.stereotype.Controller	org.springframework.web.bind.annotation.ExceptionHandler
+[inject on field]
+[inject on method]
+[field to target]
+[framework call to target]

@@ -1,0 +1,212 @@
+[
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.init(Ljavax/servlet/FilterConfig;)V"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationListener.onApplicationEvent(Lorg/springframework/context/ApplicationEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]schema;types;fieldtype;analyzer:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]configuration;appender;layout:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.resolvePlaceholder(Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String;"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.Filter.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]org.springframework.context.ApplicationContextAware.setApplicationContext(Lorg/springframework/context/ApplicationContext;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]plugin:class"
+		]
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextInitialized(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/ServletContextListener"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet.service(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+		],
+		"kind": "Entry",
+		"classMarks": []
+	},
+	{
+		"methodMarks": [
+			"[inheritance]javax.servlet.ServletContextListener.contextDestroyed(Ljavax/servlet/ServletContextEvent;)V"
+		],
+		"kind": "Entry",
+		"classMarks": [
+			"[inheritance]Ljavax/servlet/ServletContextListener"
+		]
+	},
+	{
+		"methodMarks": [],
+		"kind": "Entry",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"paramType": "org.springframework.context.ApplicationEvent",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.FilterChain",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.http.HttpServletRequest",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletContextEvent",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.ServletResponse",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.FilterConfig",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "javax.servlet.http.HttpServletResponse",
+		"kind": "Entry-Param"
+	},
+	{
+		"paramType": "org.springframework.context.ApplicationContext",
+		"kind": "Entry-Param"
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]com.google.gwt.user.client.rpc.RemoteService",
+			"[inheritance]com.google.gwt.user.server.rpc.RemoteServiceServlet"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.http.HttpServlet"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]beans;bean:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]beans;bean;property;bean:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]plugin:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]configuration;appender;layout:class"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.Filter"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]org.springframework.jdbc.core.RowMapper"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[inheritance]javax.servlet.ServletContextListener",
+			"[inheritance]javax.servlet.http.HttpSessionListener"
+		]
+	},
+	{
+		"kind": "Generate-Class",
+		"classMarks": [
+			"[xml]schema;types;fieldtype;analyzer:class"
+		]
+	},
+	{
+		"kind": "Inject-Field",
+		"fieldMarks": [
+			"[anno]javax.annotation.Resource"
+		]
+	}
+]
